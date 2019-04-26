@@ -4,9 +4,14 @@
     background-color: $bg;
     width: 158px;
     transition: 0.6s ease;
-
+    padding-top: 3px;
     &_discount {
         margin-left: 30px;
+    }
+
+    &_course {
+        margin-top: 10px;
+        margin-bottom: 30px;
     }
 
     &__text {

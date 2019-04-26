@@ -32,6 +32,10 @@ a {
     text-decoration: none;
     color: #d3d3d3; }
 
+.mini-footer {
+  background: #303030;
+  height: 80px; }
+
 .header {
   padding: 17px 0px;
   background-color: #303030; }
@@ -67,9 +71,13 @@ a {
   background-color: #303030;
   width: 158px;
   -webkit-transition: 0.6s ease;
-  transition: 0.6s ease; }
+  transition: 0.6s ease;
+  padding-top: 3px; }
   .button_discount {
     margin-left: 30px; }
+  .button_course {
+    margin-top: 10px;
+    margin-bottom: 30px; }
   .button__text {
     font-size: 13px;
     color: white; }
@@ -102,9 +110,6 @@ a {
   .promo__link {
     color: #303030;
     border-bottom: 1px dashed #303030; }
-  .promo__footer {
-    background: #303030;
-    height: 80px; }
 
 .social {
   margin-top: 50px;
@@ -115,8 +120,8 @@ a {
   background: url(../img/second-bg.jpg) no-repeat;
   background-size: 114%; }
   .discount__card {
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 65px;
+    margin-bottom: 80px;
     background: white;
     padding: 20px;
     border-radius: 20px;
@@ -149,5 +154,31 @@ a {
     line-height: 1.1; }
   .discount__subinfo {
     margin-bottom: -8px; }
+
+.courses {
+  background: url(../img/courses-bg.jpg) no-repeat center;
+  background-size: 100%; }
+  .courses__title {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px; }
+
+.course {
+  text-align: center;
+  font-size: 14px; }
+  .course__title {
+    height: 60px;
+    margin-top: 20px;
+    font-size: 16px; }
+  .course__img {
+    max-width: 100%;
+    height: auto; }
+  .course__schedule {
+    margin: 0 auto;
+    width: 208px; }
+  .course__duration {
+    width: 223px;
+    height: 100px;
+    margin: 0 auto; }
 
 /*# sourceMappingURL=style.css.map */

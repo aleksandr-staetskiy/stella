@@ -1,0 +1,39 @@
+.courses {
+    background: url(../img/courses-bg.jpg)no-repeat center;
+    background-size: 100%;
+
+    &__title {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+
+.course {
+    text-align: center;
+    font-size: 14px;
+
+    &__title {
+        height: 60px;
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+    &__img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    &__schedule {
+        margin: 0 auto;
+        width: 208px;
+    }
+
+    &__duration {
+        width: 223px;
+        height: 100px;
+        margin: 0 auto;
+    }
+
+
+}
