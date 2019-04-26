@@ -1,0 +1,27 @@
+.promo {
+    background: url(../img/promo.jpg)no-repeat;
+    background-size: 100%;
+    text-align: center;
+
+    &__title {
+        text-transform: uppercase;
+        margin-top: 120px;
+    }
+
+    &__subtitle {
+        margin-top: 50px;
+        text-transform: uppercase;
+        font-size: 21px;
+    }
+
+    &__list {
+        margin-top: 40px;
+        padding-left: 0;
+        list-style: none;
+    }
+
+    &__link {
+        color: $font-color;
+        border-bottom: 1px dashed $font-color;
+    }
+}
