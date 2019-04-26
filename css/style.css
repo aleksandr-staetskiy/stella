@@ -143,6 +143,10 @@ a {
     color: #111111;
     font-size: 70px;
     line-height: 1; }
+    .discount__title_big {
+      font-size: 90px; }
+    .discount__title_big_number {
+      font-size: 200px; }
   .discount__img {
     max-width: 100%;
     height: auto; }
@@ -154,6 +158,9 @@ a {
     line-height: 1.1; }
   .discount__subinfo {
     margin-bottom: -8px; }
+    .discount__subinfo_small {
+      margin-top: 15px;
+      font-size: 14px; }
 
 .courses {
   background: url(../img/courses-bg.jpg) no-repeat center;

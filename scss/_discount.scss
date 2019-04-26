@@ -26,6 +26,13 @@
         color: $title-color;
         font-size: 70px;
         line-height: 1;
+        &_big {
+            font-size: 90px;
+        }
+
+        &_big_number {
+            font-size: 200px;
+        }
     }
 
     &__img {
@@ -43,6 +50,10 @@
 
     &__subinfo {
         margin-bottom: -8px;
+        &_small {
+            margin-top: 15px;
+            font-size: 14px;
+        }
     }
 
 
