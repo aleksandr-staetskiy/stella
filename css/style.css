@@ -32,6 +32,10 @@ a {
     text-decoration: none;
     color: #d3d3d3; }
 
+img {
+  max-width: 100%;
+  height: auto; }
+
 .mini-footer {
   background: #303030;
   height: 80px; }
@@ -187,5 +191,17 @@ a {
     width: 223px;
     height: 100px;
     margin: 0 auto; }
+
+.about {
+  color: #111111; }
+  .about__title {
+    text-align: center;
+    font-size: 50px;
+    margin: 48px 0px; }
+  .about__img {
+    margin-bottom: 30px; }
+  .about__descr {
+    text-align: center;
+    font-size: 14px; }
 
 /*# sourceMappingURL=style.css.map */

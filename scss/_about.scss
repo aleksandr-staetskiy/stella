@@ -1,0 +1,17 @@
+.about {
+    color: $title-color;
+  &__title {
+    text-align: center;
+    font-size: 50px;
+    margin: 48px 0px;
+  }
+
+  &__img {
+      margin-bottom: 30px;
+  }
+
+  &__descr {
+      text-align: center;
+      font-size: 14px;
+  }
+}
