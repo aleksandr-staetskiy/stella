@@ -1,16 +1,30 @@
 .button {
     cursor: pointer;
-    padding: 6px 20px;
     border: none;
-    background-color: #fff;
+    background-color: $bg;
     width: 158px;
     transition: 0.6s ease;
+
+    &_discount {
+        margin-left: 30px;
+    }
+
+    &__text {
+        font-size: 13px;
+        color: white;
+        &_dark {
+            text-transform: uppercase;
+            color: #111;
+        }
+    }
+
 
     &:hover {
         transform: scale(1.1);
     }
 
     &_light {
+        padding: 6px 20px;
         background-color: #fff;
     }
       

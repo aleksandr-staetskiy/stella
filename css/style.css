@@ -63,16 +63,24 @@ a {
 
 .button {
   cursor: pointer;
-  padding: 6px 20px;
   border: none;
-  background-color: #fff;
+  background-color: #303030;
   width: 158px;
   -webkit-transition: 0.6s ease;
   transition: 0.6s ease; }
+  .button_discount {
+    margin-left: 30px; }
+  .button__text {
+    font-size: 13px;
+    color: white; }
+    .button__text_dark {
+      text-transform: uppercase;
+      color: #111; }
   .button:hover {
     -webkit-transform: scale(1.1);
             transform: scale(1.1); }
   .button_light {
+    padding: 6px 20px;
     background-color: #fff; }
 
 .promo {
@@ -81,8 +89,9 @@ a {
   text-align: center; }
   .promo__title {
     text-transform: uppercase;
-    margin-top: 120px; }
+    margin-top: 130px; }
   .promo__subtitle {
+    color: #111111;
     margin-top: 50px;
     text-transform: uppercase;
     font-size: 21px; }
@@ -93,10 +102,52 @@ a {
   .promo__link {
     color: #303030;
     border-bottom: 1px dashed #303030; }
+  .promo__footer {
+    background: #303030;
+    height: 80px; }
 
 .social {
   margin-top: 50px;
-  margin-bottom: 30px;
+  margin-bottom: 120px;
   text-align: center; }
+
+.discount {
+  background: url(../img/second-bg.jpg) no-repeat;
+  background-size: 114%; }
+  .discount__card {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #cdcccc;
+    -webkit-box-shadow: 3px 1px 26px -5px rgba(0, 0, 0, 0.75);
+            box-shadow: 3px 1px 26px -5px rgba(0, 0, 0, 0.75);
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+    overflow: hidden; }
+    .discount__card:hover {
+      -webkit-box-shadow: 3px 1px 52px -1px rgba(0, 0, 0, 0.75);
+              box-shadow: 3px 1px 52px -1px rgba(0, 0, 0, 0.75); }
+  .discount__wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .discount__title {
+    margin-top: 50px;
+    color: #111111;
+    font-size: 70px;
+    line-height: 1; }
+  .discount__img {
+    max-width: 100%;
+    height: auto; }
+  .discount__descr {
+    font-size: 18px;
+    color: #111111;
+    width: 225px;
+    margin-left: 20px;
+    line-height: 1.1; }
+  .discount__subinfo {
+    margin-bottom: -8px; }
 
 /*# sourceMappingURL=style.css.map */
