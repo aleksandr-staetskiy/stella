@@ -1,0 +1,19 @@
+.header {
+    padding: 17px 0px;
+    background-color: $bg;
+}
+
+.logo {
+    white-space: nowrap;
+    &__title {
+
+        font-size: 27px;
+        text-transform: uppercase;
+    }
+
+    &__subtitle {
+        display: block;
+        margin-top: -10px;
+        font-size: 14px;
+    }
+}

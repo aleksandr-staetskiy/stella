@@ -1,0 +1,17 @@
+.button {
+    cursor: pointer;
+    padding: 5px 20px;
+    border: none;
+    background-color: #fff;
+    width: 158px;
+    transition: 0.6s ease;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+
+    &_light {
+        background-color: #fff;
+    }
+      
+}
