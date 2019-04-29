@@ -12,6 +12,10 @@
 .course {
     text-align: center;
     font-size: 14px;
+    transition: 0.6s ease;
+    &:hover {
+        @include main-animation;
+    }
 
     &__title {
         height: 60px;

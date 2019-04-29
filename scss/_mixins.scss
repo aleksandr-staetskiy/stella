@@ -1,3 +1,8 @@
 @mixin regular {
-    font-family: 'Calibri Regular';
+  font-family: "Calibri Regular";
+}
+
+@mixin main-animation {
+  box-shadow: 3px 1px 26px -5px rgba(0, 0, 0, 0.75);
+  transform: scale(1.1);
 }
