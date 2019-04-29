@@ -452,4 +452,30 @@ img {
   .team__info {
     font-size: 14px; }
 
+.feedback {
+  text-align: center;
+  padding: 10px 15px; }
+  .feedback__title {
+    font-size: 45px;
+    color: #111111;
+    margin-top: 40px;
+    margin-bottom: 35px; }
+  .feedback__img-wrap {
+    overflow: hidden;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto; }
+  .feedback__name {
+    margin-top: 15px; }
+  .feedback__text {
+    font-size: 14px; }
+  .feedback__more {
+    margin-top: 45px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #111; }
+    .feedback__more:hover {
+      color: #989898; }
+
 /*# sourceMappingURL=style.css.map */

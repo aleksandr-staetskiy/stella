@@ -1,0 +1,39 @@
+.feedback {
+    text-align: center;
+    padding: 10px 15px;
+
+    &__title {
+        font-size: 45px;
+        color: $title-color;
+        margin-top: 40px;
+        margin-bottom: 35px;
+    }
+
+    &__img-wrap {
+        overflow: hidden;
+        border-radius: 50px;
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+    }
+
+    &__name {
+        margin-top: 15px;
+    }
+
+    &__text {
+        font-size: 14px;
+    }
+
+    &__more {
+        margin-top: 45px;
+        font-size: 18px;
+        text-transform: uppercase;
+        color: $font-color;
+        &:hover {
+            color: #989898;
+        }
+    }
+
+    
+}
