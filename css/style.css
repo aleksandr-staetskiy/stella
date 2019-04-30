@@ -654,11 +654,11 @@ nav ul.sub li a:hover {
   text-align: center; }
   .promo__title {
     text-transform: uppercase;
-    margin-top: 60px;
+    margin-top: 20px;
     font-size: 65px; }
   .promo__subtitle {
     color: #111111;
-    margin-top: 50px;
+    margin-top: 18px;
     text-transform: uppercase;
     font-size: 26px; }
   .promo__list {
@@ -666,7 +666,7 @@ nav ul.sub li a:hover {
     padding-left: 0;
     list-style: none; }
   .promo__link {
-    font-size: 18px;
+    font-size: 20px;
     color: #111;
     border-bottom: 1px dashed #111; }
   @media (max-width: 994px) {
@@ -778,7 +778,7 @@ nav ul.sub li a:hover {
     margin-bottom: 30px; }
   .about__descr {
     text-align: center;
-    font-size: 14px; }
+    font-size: 18px; }
   @media (max-width: 530px) {
     .about__title {
       font-size: 38px;
