@@ -628,7 +628,7 @@ nav ul.sub li a:hover {
     margin-top: 10px;
     margin-bottom: 30px; }
   .button__text {
-    font-size: 13px;
+    font-size: 16px;
     color: white; }
     .button__text_dark {
       text-transform: uppercase;
@@ -663,6 +663,7 @@ nav ul.sub li a:hover {
     font-size: 26px; }
   .promo__list {
     margin-top: 40px;
+    margin-bottom: 30px;
     padding-left: 0;
     list-style: none; }
   .promo__link {
