@@ -3,6 +3,10 @@ body {
     color: $font-color;
 }
 
+.page-wrapper {
+    overflow-x: hidden;
+}
+
 a {
     text-decoration: none;
     color: #fff;
