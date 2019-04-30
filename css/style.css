@@ -791,7 +791,8 @@ nav ul.sub li a:hover {
   background: #303030;
   color: #fff; }
   .advantages .advantage {
-    text-align: center; }
+    text-align: center;
+    margin-bottom: 17px; }
     .advantages .advantage__title {
       display: block;
       font-size: 30px;
@@ -848,7 +849,7 @@ nav ul.sub li a:hover {
   text-align: center;
   padding: 10px 15px; }
   .feedback__title {
-    font-size: 45px;
+    font-size: 41px;
     color: #111111;
     margin-top: 40px;
     margin-bottom: 35px; }
@@ -861,7 +862,9 @@ nav ul.sub li a:hover {
   .feedback__name {
     margin-top: 15px; }
   .feedback__text {
-    font-size: 14px; }
+    font-size: 14px;
+    width: 280px;
+    margin: 0 auto; }
   .feedback__more {
     margin-top: 45px;
     font-size: 18px;
