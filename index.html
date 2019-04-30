@@ -8,8 +8,6 @@
   <title>Stella</title>
   <!-- bootstrap include -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <!-- carousel include -->
-  
   <!-- main style -->
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -17,15 +15,15 @@
 <body>
   <header class="header">
     <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-2">
+      <div class="row desktop-panel align-items-center">
+        <div class="col-lg-2 col-md-2 col-sm-4">
           <a href="#" class="logo">
             <span class="logo__title">STELLA PROF</span>
             <span class="logo__subtitle">HairDressing Art Center</span>
           </a>
         </div>
-        <div class="col-lg-6">
-          <nav class="navbar">
+        <div class="col-lg-6 col-md-6">
+          <div class="navbar">
             <ul class="navbar__list">
               <li class="navbar__item"><a href="" class="navbar__link">О ШКОЛЕ</a></li>
               <li class="navbar__item"><a href="" class="navbar__link">КУРСЫ</a></li>
@@ -33,15 +31,43 @@
               <li class="navbar__item"><a href="" class="navbar__link">ОТЗЫВЫ</a></li>
               <li class="navbar__item"><a href="" class="navbar__link">КОНТАКТЫ</a></li>
             </ul>
-          </nav>
+          </div>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-2 col-md-2 ">
           <a href="tel:+788129823201" class="header__phone">8 812 982-32-01</a>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-2 col-md-2">
           <button class="button button_light">
             <span class="button__text button__text_dark">ЗАПИСАТЬСЯ</span>
           </button>
+        </div>
+      </div>
+      <div class="row mobile-panel align-items-center">
+        <div class="col-sm-4 col-5">
+          <a href="#" class="logo">
+            <span class="logo__title">STELLA PROF</span>
+            <span class="logo__subtitle">HairDressing Art Center</span>
+          </a>
+        </div>
+        <div class="col-sm-5 col-4">
+          <a href="tel:+788129823201" class="header__phone">8 812 982-32-01</a>
+        </div>
+        <div class="col-sm-2">
+          <div class="mobile-burger">
+            <nav>
+              <ul class="main">
+                <li><a href="">О ШКОЛЕ</a></li>
+                <li><a href="">КУРСЫ</a></li>
+                <li><a href="">КОМАНДА</a></li>
+                <li><a href="">ОТЗЫВЫ</a></li>
+                <li><a href="">КОНТАКТЫ</a></li>
+              </ul>
+            </nav>
+            <div class="burger">
+              <span></span>
+            </div>
+            <div class="overlay"></div>
+          </div>
         </div>
       </div>
     </div>
@@ -49,7 +75,7 @@
   <section class="promo">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-lg-4">
+        <div class="col-xl-5 col-lg-5 col-md-6 col-sm-7 col-10">
           <h1 class="promo__title">ОБУЧАЕМ ПАРИКМАХЕРСКОМУ ИСКУССТВУ</h1>
           <div class="promo__subtitle">
             <p>НОВИЧКОВ И ПРОФЕССИОНАЛОВ</p>
@@ -61,14 +87,9 @@
             <li class="promo__item"><a href="" class="promo__link">Визажист</a></li>
             <li class="promo__item"><a href="" class="promo__link">Повышение квалификации</a></li>
           </ul>
-          <div class="social">
-            <a href="" class="social__link">
-              <img src="img/Instagram_icon.png" alt="instagram" class="sicial__icon">
-            </a>
-            <a href="" class="social__link">
-              <img src="img/vk.png" alt="vk" class="sicial__icon">
-            </a>
-          </div>
+          <button class="button button_promo">
+            <span class="button__text">ЗАПИСАТЬСЯ</span>
+          </button>
         </div>
       </div>
     </div>
@@ -77,25 +98,13 @@
   <section class="discount">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-lg-8">
-          <div class="discount__card">
-            <div class="discount__wrap">
-              <div class="discount__left">
-                <h2 class="discount__title">МЕСЯЦ <br> ОБУЧЕНИЯ <br> БЕСПЛАТНО!</h2>
-              </div>
-              <div class="discount__right">
-                <img src="img/card-img.png" alt="" class="discount__img">
-                <div class="discount__descr">
-                  <p>Приходи на курс
-                    «Парикмахер-универсал»и получи последний месяцобучения в подарок!*</p>
-                </div>
-                <button class="button button_discount">
-                  <span class="button__text">ХОЧУ СКИДКУ</span>
-                </button>
-              </div>
-            </div>
-            <p class="discount__subinfo">*При оплате курса 7 месяцев.</p>
-          </div>
+        <div class="col-lg-10 col-md-10 col-sm-10 col-11">
+          <a href="">
+            <picture>
+              <source media="(max-width: 530px)" srcset="img/discount-mob-1.png">
+                <img src="img/discount-1.png" alt="">
+            </picture>
+          </a>
         </div>
       </div>
     </div>
@@ -108,8 +117,8 @@
           <h3 class="courses__title">НАШИ КУРСЫ</h3>
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-3">
+      <div class="row justify-content-center desktop-panel">
+        <div class="col-lg-3 col-md-4">
           <article class="course">
             <img src="img/course-1.jpg" alt="haircut" class="course__img">
             <h4 class="course__title">ПАРИКМАХЕР УНИВЕРСАЛ«УСИЛЕННЫЙ»</h4>
@@ -129,7 +138,7 @@
             </button>
           </article>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 col-md-4">
           <article class="course">
             <img src="img/course-2.jpg" alt="haircut" class="course__img">
             <h4 class="course__title">ПОВЫШЕНИЕ КВАЛИФИКАЦИИДО 5-ГО РАЗРЯДА</h4>
@@ -149,7 +158,7 @@
             </button>
           </article>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 col-md-4">
           <article class="course">
             <img src="img/course-3.jpg" alt="haircut" class="course__img">
             <h4 class="course__title">ОБУЧЕНИЕ БАРБЕРОВ</h4>
@@ -189,36 +198,80 @@
           </article>
         </div>
       </div>
+      <div class="row stella-carousel__slides mobile-panel">
+        <div class="col-sm-8">
+          <article class="course">
+            <img src="img/course-1.jpg" alt="haircut" class="course__img">
+            <h4 class="course__title">ПАРИКМАХЕР УНИВЕРСАЛ«УСИЛЕННЫЙ»</h4>
+            <span class="course__subtitle">Старт ближайшей группы — 17 апреля</span>
+            <ul class="course__schedule">
+              <li>график обучения групп:</li>
+              <li>11:00 - 16:00 (2 - 3 раза в неделю).</li>
+              <li>16:00 - 21:00 (2 - 3 раза в неделю).</li>
+              <li>Группа выходного дня - 11:00 - 18.00(суббота, воскресенье).</li>
+            </ul>
+            <div class="course__duration">
+              <p>Продолжительность курса - 560 академических часов (8 месяцев).
+                Из них 370 часов практики.</p>
+            </div>
+            <button class="button button_course">
+              <span class="button__text">ПОДРОБНЕЕ</span>
+            </button>
+          </article>
+        </div>
+        <div class="col-sm-8">
+          <article class="course">
+            <img src="img/course-3.jpg" alt="haircut" class="course__img">
+            <h4 class="course__title">ОБУЧЕНИЕ БАРБЕРОВ</h4>
+            <span class="course__subtitle">Старт ближайшей группы — 17 апреля</span>
+            <ul class="course__schedule">
+              <li>график обучения групп:</li>
+              <li>11:00 - 16:00 (2 - 3 раза в неделю).</li>
+              <li>16:00 - 21:00 (2 - 3 раза в неделю).</li>
+              <li>Группа выходного дня - 11:00 - 18.00(суббота, воскресенье).</li>
+            </ul>
+            <div class="course__duration">
+              <p>Продолжительность курса5 дней (35 академических часов). </p>
+            </div>
+            <button class="button button_course">
+              <span class="button__text">ПОДРОБНЕЕ</span>
+            </button>
+          </article>
+        </div>
+        <div class="col-sm-8">
+          <article class="course">
+            <img src="img/course-4.jpg" alt="haircut" class="course__img">
+            <h4 class="course__title">ПРИЧЁСКИ И УКЛАДКИ</h4>
+            <span class="course__subtitle">Старт ближайшей группы — <strong>17 апреля</strong></span>
+            <ul class="course__schedule">
+              <li>график обучения групп:</li>
+              <li>11:00 - 16:00 (2 - 3 раза в неделю).</li>
+              <li>16:00 - 21:00 (2 - 3 раза в неделю).</li>
+              <li>Группа выходного дня - 11:00 - 18.00(суббота, воскресенье).</li>
+            </ul>
+            <div class="course__duration">
+              <p>Продолжительность курса - 20 занятий (140 академических часов).
+                110 часов из них - практика.</p>
+            </div>
+            <button class=" button button_course">
+              <span class="button__text">ПОДРОБНЕЕ</span>
+            </button>
+          </article>
+        </div>
+      </div>
     </div>
     <div class="mini-footer"></div>
   </section>
   <section class="discount">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-lg-8">
-          <div class="discount__card">
-            <div class="discount__wrap">
-              <div class="discount__left">
-                <h2 class="discount__title discount__title_big">СКИДКА<br>
-                  <span class="discount__title_big_number">50%</span>
-                </h2>
-              </div>
-              <div class="discount__right">
-                <img src="img/card-img.png" alt="" class="discount__img">
-                <div class="discount__descr">
-                  <p>Скидка 50% всем,кто уже прошел похожий курс
-                    в другом месте!*</p>
-                </div>
-                <button class="button button_discount">
-                  <span class="button__text">ХОЧУ СКИДКУ</span>
-                </button>
-              </div>
-            </div>
-            <p class="discount__subinfo discount__subinfo_small">Для получения скидки предоставьте сертификат или
-              диплом
-              о пройденной программе
-              (не менее 70 часов), заверенный печатью организации.</p>
-          </div>
+        <div class="col-lg-10 col-md-10 col-sm-10 col-11">
+          <a href="">
+            <picture>
+              <source media="(max-width: 530px)" srcset="img/discount-mob-2.png">
+              <img src="img/discount-2.png" alt="">
+            </picture>
+          </a>
         </div>
       </div>
     </div>
@@ -265,31 +318,31 @@
   <section class="advantages">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-lg-1">
+        <div class="col-lg-2 col-md-4 col-sm-6">
           <div class="advantage">
             <span class="advantage__title">22</span>
             <p class="advantage__text">годав индустрии</p>
           </div>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-2 col-md-4 col-sm-7">
           <div class="advantage">
             <span class="advantage__title">6 500</span>
             <p class="advantage__text">успешных выпускников</p>
           </div>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-2 col-md-4 col-sm-7">
           <div class="advantage">
             <span class="advantage__title">16</span>
             <p class="advantage__text">квалифицированных преподователей</p>
           </div>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-2 col-md-4 col-sm-7">
           <div class="advantage">
             <span class="advantage__title">10/90%</span>
             <p class="advantage__text">соотношение теории и практири</p>
           </div>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-2 col-md-4 col-sm-7">
           <div class="advantage">
             <span class="advantage__title">100%</span>
             <p class="advantage__text">трудоустройство выпускников</p>
@@ -300,50 +353,36 @@
   </section>
   <!-- carousel area -->
   <div class="stella-carousel">
-      <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-9">
-                <div class="stella-carousel__slides">
-                      <img src="img/carousel/2uSMKqDVI7c.jpg" alt="" class="stella-carousel__photo">
-                        <img src="img/carousel/71bvKKCcShg.jpg" alt="" class="stella-carousel__photo">
-                        <img src="img/carousel/D4Dpkx8fXgU.jpg" alt="" class="stella-carousel__photo">
-                        <img src="img/carousel/G-ix-XtZUcA.jpg" alt="" class="stella-carousel__photo">
-                        <img src="img/carousel/m4NoKGcjsOI.jpg" alt="" class="stella-carousel__photo">
-                        <img src="img/carousel/NJsyHVf-D28.jpg" alt="" class="stella-carousel__photo">
-                        <img src="img/carousel/o7wVS2ln7dQ.jpg" alt="" class="stella-carousel__photo">
-                        <img src="img/carousel/ooXFT_pF-K4.jpg" alt="" class="stella-carousel__photo">
-                        <img src="img/carousel/upX1CbsHwII.jpg" alt="" class="stella-carousel__photo">
-                        <img src="img/carousel/ygm8NjIwcRc.jpg" alt="" class="stella-carousel__photo">
-                  </div>
-            </div>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-9">
+          <div class="stella-carousel__slides">
+            <img src="img/carousel/2uSMKqDVI7c.jpg" alt="" class="stella-carousel__photo">
+            <img src="img/carousel/71bvKKCcShg.jpg" alt="" class="stella-carousel__photo">
+            <img src="img/carousel/D4Dpkx8fXgU.jpg" alt="" class="stella-carousel__photo">
+            <img src="img/carousel/G-ix-XtZUcA.jpg" alt="" class="stella-carousel__photo">
+            <img src="img/carousel/m4NoKGcjsOI.jpg" alt="" class="stella-carousel__photo">
+            <img src="img/carousel/NJsyHVf-D28.jpg" alt="" class="stella-carousel__photo">
+            <img src="img/carousel/o7wVS2ln7dQ.jpg" alt="" class="stella-carousel__photo">
+            <img src="img/carousel/ooXFT_pF-K4.jpg" alt="" class="stella-carousel__photo">
+            <img src="img/carousel/upX1CbsHwII.jpg" alt="" class="stella-carousel__photo">
+            <img src="img/carousel/ygm8NjIwcRc.jpg" alt="" class="stella-carousel__photo">
           </div>
         </div>
+      </div>
+    </div>
   </div>
   <!--  end of carousel area -->
   <div class="discount">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-lg-8">
-          <div class="discount__card">
-            <div class="discount__wrap">
-              <div class="discount__left">
-                <h2 class="discount__title discount__title_big">СКИДКА<br>
-                  <span class="discount__title_big_number">40%</span>
-                </h2>
-              </div>
-              <div class="discount__right">
-                <img src="img/card-img.png" alt="" class="discount__img">
-                <div class="discount__descr">
-                  <p>Только до 17 апреля!
-                    Пройдите курс обучения
-                    со скидкой 40%!</p>
-                </div>
-                <button class="button button_discount">
-                  <span class="button__text">ХОЧУ СКИДКУ</span>
-                </button>
-              </div>
-            </div>
-          </div>
+        <div class="col-lg-10 col-md-10 col-sm-10 col-11">
+          <a href="">
+            <picture>
+              <source media="(max-width: 530px)" srcset="img/discount-mob-2.png">
+              <img src="img/dicsount-3.png" alt="">
+            </picture>
+          </a>
         </div>
       </div>
     </div>
@@ -354,7 +393,7 @@
       <div class="team__title">
         <span>НАША КОМАНДА</span>
       </div>
-      <div class="row justify-content-center">
+      <div class="row desktop-panel justify-content-center">
         <div class="col-lg-3">
           <article class="team__item">
             <img src="img/team-1.jpg" alt="ИЛЬЯС МУСИН" class="team__avatar">
@@ -399,7 +438,8 @@
             <h5 class="team__name">СОФИЯ АЛЬШЕВСКАЯ</h5>
             <div class="team__info">
               <p>Парикмахер-стилист, мастер международного класса.
-                Многократный победитель международных чемпионатов по парикмахерскому искусству, призёр чемпионата мира по
+                Многократный победитель международных чемпионатов по парикмахерскому искусству, призёр чемпионата мира
+                по
                 парикмахерскому искусству в Италии.</p>
             </div>
             <p class="team__subinfo">Педагогический стаж с 2007 г.</p>
@@ -411,7 +451,8 @@
             <h5 class="team__name">ДИАНА СТЕПАНОВА</h5>
             <div class="team__info">
               <p>Парикмахер модельер международного класса.
-                Дипломант международных Академий по парикмахерскому искусству, лауреат фестиваля красоты Невские берега.
+                Дипломант международных Академий по парикмахерскому искусству, лауреат фестиваля красоты Невские
+                берега.
                 Участник профессиональных тренингов в Италии, Англии.Выпускник Парижской академии Saint Louis (Сент
                 Луи).</p>
             </div>
@@ -446,6 +487,100 @@
           </article>
         </div>
       </div>
+      <div class="row mobile-panel stella-carousel__slides">
+          <div class="col-sm-10">
+              <article class="team__item">
+                <img src="img/team-1.jpg" alt="ИЛЬЯС МУСИН" class="team__avatar">
+                <h5 class="team__name">ИЛЬЯС МУСИН</h5>
+                <div class="team__info">
+                  <p>Креативный директор и методист школы Stella Prof .
+                    Парикмахер-стилист, имиджмейкер, визажист, технолог, колорист марки C:EHKO и Concept. Призёр
+                    Международного Чемпионата по парикмахерскому искусству. Призер московского конкурса "Золотые ножницы».​</p>
+                </div>
+                <p class="team__subinfo">Педагогический стаж с 2009 г.</p>
+              </article>
+            </div>
+            <div class="col-sm-10">
+              <article class="team__item">
+                <img src="img/team-2.jpg" alt="ИЛЬЯС МУСИН" class="team__avatar">
+                <h5 class="team__name">ПОЛИНА КУРГАНОВА</h5>
+                <div class="team__info">
+                  <p>Парикмахер модельер
+                    международного класса.
+                    Медалист Международного Чемпионата по парикмахерскому искусству. Эксперт L’Oreal Professionnel, Estel
+                    Professional, Wella Professional, IB’Co, Goldwell, Paul Mitchell. Член Всемирной организации
+                    Intercoiffure.</p>
+                </div>
+                <p class="team__subinfo">Педагогический стаж с 2007 г.</p>
+              </article>
+            </div>
+            <div class="col-sm-10">
+              <article class="team__item">
+                <img src="img/team-3.jpg" alt="ИЛЬЯС МУСИН" class="team__avatar">
+                <h5 class="team__name">СОФИЯ АЛЬШЕВСКАЯ</h5>
+                <div class="team__info">
+                  <p>Стилист-визажист, лэшмейкер, мастер-бровист.
+                    Судья Чемпионата «Невские Берега». Судья Чемпионата Санкт-Петербурга по декоративной косметике. Золотой
+                    призер Чемпионата «Невские Берега» 2010 Премьер-Лига. Многократный призер «Невских Берегов»..</p>
+                </div>
+                <p class="team__subinfo">Педагогический стаж с 2010 г.</p>
+              </article>
+            </div>
+            <div class="col-sm-10">
+              <article class="team__item">
+                <img src="img/team-4.jpg" alt="ИЛЬЯС МУСИН" class="team__avatar">
+                <h5 class="team__name">СОФИЯ АЛЬШЕВСКАЯ</h5>
+                <div class="team__info">
+                  <p>Парикмахер-стилист, мастер международного класса.
+                    Многократный победитель международных чемпионатов по парикмахерскому искусству, призёр чемпионата мира
+                    по
+                    парикмахерскому искусству в Италии.</p>
+                </div>
+                <p class="team__subinfo">Педагогический стаж с 2007 г.</p>
+              </article>
+            </div>
+            <div class="col-sm-10">
+              <article class="team__item">
+                <img src="img/team-5.jpg" alt="ИЛЬЯС МУСИН" class="team__avatar">
+                <h5 class="team__name">ДИАНА СТЕПАНОВА</h5>
+                <div class="team__info">
+                  <p>Парикмахер модельер международного класса.
+                    Дипломант международных Академий по парикмахерскому искусству, лауреат фестиваля красоты Невские
+                    берега.
+                    Участник профессиональных тренингов в Италии, Англии.Выпускник Парижской академии Saint Louis (Сент
+                    Луи).</p>
+                </div>
+                <p class="team__subinfo">Педагогический стаж с 1997 г.</p>
+              </article>
+            </div>
+            <div class="col-sm-10">
+              <article class="team__item">
+                <img src="img/team-6.jpg" alt="ИЛЬЯС МУСИН" class="team__avatar">
+                <h5 class="team__name">ТАМАРА АНТРОПОВА</h5>
+                <div class="team__info">
+                  <p>Парикмахер модельер международного класса.
+                    Обладатель 4-х Гран-При фестиваля «Невские Берега», а также 30 золотых медалей, призёр (Финляндия,
+                    Польша, Рига), член жюри «Невские Берега». Член жюри международного конкурса «Открытый Независимый
+                    Чемпионат по парикмахерскому искусству на Кубок России».
+                    Педагогический стаж с 1986 г.</p>
+                </div>
+                <p class="team__subinfo">Педагогический стаж с 1997 г.</p>
+              </article>
+            </div>
+            <div class="col-sm-10">
+              <article class="team__item">
+                <img src="img/team-7.jpg" alt="ИЛЬЯС МУСИН" class="team__avatar">
+                <h5 class="team__name">ВЛАДА ОСИПОВА</h5>
+                <div class="team__info">
+                  <p>Парикмахер-стилист, мастер международного класса.
+                    Чемпион СПб и Москвы в номинации "Женская стрижка с укладкой". Финалист конкурса Wella Trend Vision в
+                    категории "Окрашивание".Лауреат премии Russian Hairdressing Award в номинации "Женский коммерческий
+                    образ".</p>
+                </div>
+                <p class="team__subinfo">Педагогический стаж с 2009 г.</p>
+              </article>
+            </div>
+      </div>
     </div>
   </section>
   <section class="feedback">
@@ -453,7 +588,7 @@
       <div class="feedback__title">
         <span>ОТЗЫВЫ</span>
       </div>
-      <div class="row justify-content-center">
+      <div class="row desktop-panel justify-content-center">
         <div class="col-lg-4">
           <article class="feedback__item">
             <div class="feedback__img-wrap">
@@ -461,14 +596,20 @@
             </div>
             <h5 class="feedback__name">ЕКАТЕРИНА ЛИТВИНОВА</h5>
             <p class="feedback__text">
-                С самого детства мечтала быть парикмахером. Не смотря на то, что образование у меня совсем далеко от
-                парикмахерского искусства и работа перестала доставлять мне удовольствия, я решила, что пора что- то менять.
-                Учиться никогда не поздно! Рассматривая школу для обучения, первой в моем списке была "Стелла Проф". Приехав в
-                школу, впервые для ознакомления, я поняла , что хочу учиться именно здесь: во- первых, группы на обучения набирают
-                не большие и по этому, внимание уделяется каждому учащемуся! Во- вторых, два светлых, просторных и комфортных зала,
-                где проводится обучение. В первом- зал для стрижек. У каждого ученика своё рабочее место. И атмосфера такая,
-                как-будто ты уже находишься в салоне и работаешь! Еще плюс в том, что есть зона для фотосессии и в процессе
-                обучения можно делать своё портфолио.
+              С самого детства мечтала быть парикмахером. Не смотря на то, что образование у меня совсем далеко от
+              парикмахерского искусства и работа перестала доставлять мне удовольствия, я решила, что пора что- то
+              менять.
+              Учиться никогда не поздно! Рассматривая школу для обучения, первой в моем списке была "Стелла Проф".
+              Приехав в
+              школу, впервые для ознакомления, я поняла , что хочу учиться именно здесь: во- первых, группы на обучения
+              набирают
+              не большие и по этому, внимание уделяется каждому учащемуся! Во- вторых, два светлых, просторных и
+              комфортных зала,
+              где проводится обучение. В первом- зал для стрижек. У каждого ученика своё рабочее место. И атмосфера
+              такая,
+              как-будто ты уже находишься в салоне и работаешь! Еще плюс в том, что есть зона для фотосессии и в
+              процессе
+              обучения можно делать своё портфолио.
             </p>
           </article>
         </div>
@@ -479,12 +620,16 @@
             </div>
             <h5 class="feedback__name">ОЛЬГА ТРЕТЬЯКОВА</h5>
             <p class="feedback__text">
-              Выражаю огромную благодарность школе и всем рекомендую пройти обучение именно здесь!В первую очередь, спасибо
-              преподователю Котовой Л.А., все занятия проходят насыщенно, познавательно, доступно и интересно! Обстановка
+              Выражаю огромную благодарность школе и всем рекомендую пройти обучение именно здесь!В первую очередь,
+              спасибо
+              преподователю Котовой Л.А., все занятия проходят насыщенно, познавательно, доступно и интересно!
+              Обстановка
               комфортная, всегда было желание ездить на учебу и узнавать что-то новое!
-              Во-вторых, спасибо администратору Валентине Михайловне, она всегда найдет время все показать, рассказать и ответить
+              Во-вторых, спасибо администратору Валентине Михайловне, она всегда найдет время все показать, рассказать
+              и ответить
               на все возникающие вопросы, а также поможет и подскажет по трудоустройству!
-              Еще раз спасибо школе за все знания, которые я получила здесь! Надеюсь, скоро всех увижу на курсах повышения
+              Еще раз спасибо школе за все знания, которые я получила здесь! Надеюсь, скоро всех увижу на курсах
+              повышения
               квалификации...:))
             </p>
           </article>
@@ -496,22 +641,125 @@
             </div>
             <h5 class="feedback__name">ТАТЬЯНА ТИШКО</h5>
             <p class="feedback__text">
-              Я училась непосредственно у преподавателя Кургановой Полины Михайловны. В группе она уделяет каждую секунду времени
-              ученикам, к каждому индивидуальный подход, работает с каждым очень плотно и единственная задача в ее голове - всеми
-              возможными способами научить и дать максимальное количество знаний, донести их до каждого тем способом, который будет
-              более понятен конкретно для тебя! И не важно сколько раз отрабатывать то, что у тебя не будет получаться, Полина
+              Я училась непосредственно у преподавателя Кургановой Полины Михайловны. В группе она уделяет каждую
+              секунду времени
+              ученикам, к каждому индивидуальный подход, работает с каждым очень плотно и единственная задача в ее
+              голове - всеми
+              возможными способами научить и дать максимальное количество знаний, донести их до каждого тем способом,
+              который будет
+              более понятен конкретно для тебя! И не важно сколько раз отрабатывать то, что у тебя не будет получаться,
+              Полина
               добьется того, чтобы ты стал уверенным мастером по окончании курсов.
-              Спасибо за знания, всегда хорошее настроение и профессионализм преподавателю Полине Кургановой! Спасибо за
-              отзывчивость администратору - Олесе Хинчик!!! И конечно же спасибо, за такую приятную атмосферу и выбор бесценных
+              Спасибо за знания, всегда хорошее настроение и профессионализм преподавателю Полине Кургановой! Спасибо
+              за
+              отзывчивость администратору - Олесе Хинчик!!! И конечно же спасибо, за такую приятную атмосферу и выбор
+              бесценных
               сотрудников директору - Ильясу Мусину!!
             </p>
           </article>
         </div>
       </div>
-      <a href="#" class="feedback__more" >БОЛЬШЕ ОТЗЫВОВ В НАШЕЙ ГРУППЕ В ВКОНТАКТЕ</a>
+      <div class="row mobile-panel stella-carousel__slides">
+          <div class="col-sm-10">
+              <article class="feedback__item">
+                <div class="feedback__img-wrap">
+                  <img src="img/feedback/review.jpg" alt="" class="feedback__avatar">
+                </div>
+                <h5 class="feedback__name">ЕКАТЕРИНА ЛИТВИНОВА</h5>
+                <p class="feedback__text">
+                  С самого детства мечтала быть парикмахером. Не смотря на то, что образование у меня совсем далеко от
+                  парикмахерского искусства и работа перестала доставлять мне удовольствия, я решила, что пора что- то
+                  менять.
+                  Учиться никогда не поздно! Рассматривая школу для обучения, первой в моем списке была "Стелла Проф".
+                  Приехав в
+                  школу, впервые для ознакомления, я поняла , что хочу учиться именно здесь: во- первых, группы на обучения
+                  набирают
+                  не большие и по этому, внимание уделяется каждому учащемуся! Во- вторых, два светлых, просторных и
+                  комфортных зала,
+                  где проводится обучение. В первом- зал для стрижек. У каждого ученика своё рабочее место. И атмосфера
+                  такая,
+                  как-будто ты уже находишься в салоне и работаешь! Еще плюс в том, что есть зона для фотосессии и в
+                  процессе
+                  обучения можно делать своё портфолио.
+                </p>
+              </article>
+            </div>
+            <div class="col-sm-10">
+              <article class="feedback__item">
+                <div class="feedback__img-wrap">
+                  <img src="img/feedback/review2.jpg" alt="" class="feedback__avatar">
+                </div>
+                <h5 class="feedback__name">ОЛЬГА ТРЕТЬЯКОВА</h5>
+                <p class="feedback__text">
+                  Выражаю огромную благодарность школе и всем рекомендую пройти обучение именно здесь!В первую очередь,
+                  спасибо
+                  преподователю Котовой Л.А., все занятия проходят насыщенно, познавательно, доступно и интересно!
+                  Обстановка
+                  комфортная, всегда было желание ездить на учебу и узнавать что-то новое!
+                  Во-вторых, спасибо администратору Валентине Михайловне, она всегда найдет время все показать, рассказать
+                  и ответить
+                  на все возникающие вопросы, а также поможет и подскажет по трудоустройству!
+                  Еще раз спасибо школе за все знания, которые я получила здесь! Надеюсь, скоро всех увижу на курсах
+                  повышения
+                  квалификации...:))
+                </p>
+              </article>
+            </div>
+            <div class="col-sm-10">
+              <article class="feedback__item">
+                <div class="feedback__img-wrap">
+                  <img src="img/feedback/review3.jpg" alt="" class="feedback__avatar">
+                </div>
+                <h5 class="feedback__name">ТАТЬЯНА ТИШКО</h5>
+                <p class="feedback__text">
+                  Я училась непосредственно у преподавателя Кургановой Полины Михайловны. В группе она уделяет каждую
+                  секунду времени
+                  ученикам, к каждому индивидуальный подход, работает с каждым очень плотно и единственная задача в ее
+                  голове - всеми
+                  возможными способами научить и дать максимальное количество знаний, донести их до каждого тем способом,
+                  который будет
+                  более понятен конкретно для тебя! И не важно сколько раз отрабатывать то, что у тебя не будет получаться,
+                  Полина
+                  добьется того, чтобы ты стал уверенным мастером по окончании курсов.
+                  Спасибо за знания, всегда хорошее настроение и профессионализм преподавателю Полине Кургановой! Спасибо
+                  за
+                  отзывчивость администратору - Олесе Хинчик!!! И конечно же спасибо, за такую приятную атмосферу и выбор
+                  бесценных
+                  сотрудников директору - Ильясу Мусину!!
+                </p>
+              </article>
+            </div>
+      </div>
+      <a href="#" class="feedback__more">БОЛЬШЕ ОТЗЫВОВ В НАШЕЙ ГРУППЕ В ВКОНТАКТЕ</a>
     </div>
   </section>
-  
+  <section class="contacts">
+    <div class="container">
+      <h6 class="contacts__title">Контакты</h6>
+      <div class="row">
+        <div class="col-lg-9">
+          <iframe src="https://yandex.ru/map-widget/v1/-/CCVJmA97" class="yandex-map" width="100%" height="300px"
+            frameborder="1" allowfullscreen="true"></iframe>
+        </div>
+        <div class="col-lg-3">
+          <div class="contacts__info-blcok">
+            <span class="contacts__place">Санкт-Петербург, ст. м. «Площадь Восстания», Суворовский пр., 35</span>
+            <a href="tel:+78129829099" class="contacts__number">Записаться на курс:
+              +7 (812) 982-90-99
+            </a>
+            <div class="social">
+              <a href="" class="social__link">
+                <img src="img/Instagram_icon.png" alt="instagram" class="sicial__icon">
+              </a>
+              <a href="" class="social__link">
+                <img src="img/vk.png" alt="vk" class="sicial__icon">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <script src="js/jquery-3.4.0.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/slick.min.js"></script>

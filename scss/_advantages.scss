@@ -17,5 +17,17 @@
             margin-top: -7px;
             line-height: 1;
         }
+
+        @media (max-width: 768px) {
+
+            &__title {
+                font-size: 27px;
+            }
+            &__text {
+                width: 200px;
+                margin: 0 auto;
+            }
+        }
     }
-}
+    }
+

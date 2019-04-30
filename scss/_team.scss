@@ -30,4 +30,21 @@
         font-size: 14px;
     }
 
+    @media (max-width: 768px) {
+
+        &__title {
+            font-size: 30px;
+        }
+
+        &__avatar {
+            width: 200px;
+            margin: 0 auto;
+        }
+
+        &__item:hover {
+            box-shadow: none;
+            transform: none;
+        }
+    }
+
 }

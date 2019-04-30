@@ -19,6 +19,23 @@ img {
 }
 
 .mini-footer {
+    margin-top: 35px;
     background: $bg;
     height: 80px;
+}
+
+.yandex-map {
+    border: none;
+}
+
+
+
+@media (max-width: 768px) {
+    .mobile-panel {
+        display: flex;
+    }
+
+    .desktop-panel {
+        display: none;
+    }
 }

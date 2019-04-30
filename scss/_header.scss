@@ -1,6 +1,23 @@
 .header {
     padding: 17px 0px;
     background-color: $bg;
+
+    &__phone {
+        white-space: nowrap;
+    }
+
+    @media (max-width: 994px) {
+        &__phone {
+            font-size: 14px;
+        }
+      }
+
+      @media (max-width: 768px) {
+        &__button {
+            display: none;
+        }
+
+      }
 }
 
 .logo {
@@ -16,4 +33,25 @@
         margin-top: -10px;
         font-size: 14px;
     }
+
+    @media (max-width: 994px) {
+        &__title {
+            font-size: 21px;
+        }
+
+        &__subtitle {
+            font-size: 11px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        &__title {
+            font-size: 21px;
+        }
+
+        &__subtitle {
+            font-size: 12px;
+        }
+    }
+
 }

@@ -99,6 +99,7 @@ $slick-opacity-not-active: 0.25 !default;
 .slick-prev {
     left: -45px;
     background: url(../img/carousel/arrow-left.png)no-repeat;
+    z-index: 1;
     [dir="rtl"] & {
         left: auto;
         right: -25px;
@@ -196,5 +197,20 @@ $slick-opacity-not-active: 0.25 !default;
 .stella-carousel {
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+
+@media (max-width: 636px) {
+
+    .slick-next {
+        right: -25px;  
+        background-size: 40%;
+}
+
+.slick-prev {
+    left: 5px;
+    background-size: 40%;
+}
+
 }
 

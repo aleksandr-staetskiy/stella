@@ -1,60 +1,11 @@
 .discount {
+    padding-top: 40px;
     background: url(../img/second-bg.jpg)no-repeat;
     background-size: 114%;
-    &__card {
-        margin-top: 65px;
-        margin-bottom: 80px;
-        background: white;
-        padding: 20px;
-        border-radius: 20px;
-        border: 1px solid #cdcccc;
-        box-shadow: 3px 1px 26px -5px rgba(0,0,0,0.75);
-        transition: 0.4s ease;
-        overflow: hidden;
+}
 
-        &:hover {
-            box-shadow: 3px 1px 52px -1px rgba(0,0,0,0.75);
-        }
+@media (max-width: 530px) {
+    .discount {
+        background-size: cover;
     }
-
-    &__wrap {
-        display: flex;
-    }
-
-    &__title {
-        margin-top: 50px;
-        color: $title-color;
-        font-size: 70px;
-        line-height: 1;
-        &_big {
-            font-size: 90px;
-        }
-
-        &_big_number {
-            font-size: 200px;
-        }
-    }
-
-    &__img {
-        max-width: 100%;
-        height: auto;
-    }
-
-    &__descr {
-        font-size: 18px;
-        color: $title-color;
-        width: 225px;
-        margin-left: 20px;
-        line-height: 1.1;
-    }
-
-    &__subinfo {
-        margin-bottom: -8px;
-        &_small {
-            margin-top: 15px;
-            font-size: 14px;
-        }
-    }
-
-
 }

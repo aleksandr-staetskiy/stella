@@ -7,6 +7,14 @@
         margin-top: 50px;
         margin-bottom: 50px;
     }
+
+    @media (max-width: 768px) {
+
+        & {
+            background: none;
+        }
+
+    }
 }
 
 .course {
@@ -25,10 +33,6 @@
         font-size: 16px;
     }
 
-    &__img {
-        max-width: 100%;
-        height: auto;
-    }
 
     &__schedule {
         list-style: none;
@@ -40,6 +44,29 @@
         height: 100px;
         margin: 0 auto;
     }
+
+    @media (max-width: 768px) {
+
+        &__title {
+            height: 35px;
+        }
+
+        &__img {
+            width: 220px;
+            margin: 0 auto;
+        }
+
+        &:hover {
+            transform: none;
+            box-shadow: none;
+        }
+
+        &__duration {
+            height: 70px;
+        }
+
+    }
+        
 
 
 }

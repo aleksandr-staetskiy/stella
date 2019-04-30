@@ -98,3 +98,19 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
+
+.mobile-panel {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .mobile-panel {
+        display: flex;
+    }
+
+    .desktop-panel {
+        display: none;
+    }
+}
+
+
