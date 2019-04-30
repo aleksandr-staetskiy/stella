@@ -41,7 +41,7 @@ img {
   height: auto; }
 
 .mini-footer {
-  margin-top: 35px;
+  margin-top: 65px;
   background: #303030;
   height: 80px; }
 
@@ -634,7 +634,6 @@ nav ul.sub li a:hover {
       text-transform: uppercase;
       color: #111; }
   .button_promo {
-    margin-bottom: 100px;
     margin-top: 30px;
     margin: 0 auto; }
   .button:hover {
@@ -655,17 +654,19 @@ nav ul.sub li a:hover {
   text-align: center; }
   .promo__title {
     text-transform: uppercase;
-    margin-top: 130px; }
+    margin-top: 60px;
+    font-size: 65px; }
   .promo__subtitle {
     color: #111111;
     margin-top: 50px;
     text-transform: uppercase;
-    font-size: 21px; }
+    font-size: 26px; }
   .promo__list {
     margin-top: 40px;
     padding-left: 0;
     list-style: none; }
   .promo__link {
+    font-size: 18px;
     color: #111;
     border-bottom: 1px dashed #111; }
   @media (max-width: 994px) {

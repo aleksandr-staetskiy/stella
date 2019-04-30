@@ -13,6 +13,12 @@ $('.burger, .overlay').click(function(){
     $('nav').toggleClass('show');
     $('body').toggleClass('overflow');
   });
+
+//   modal
+
+$('#myModal').on('shown.bs.modal', function () {
+    $('#myInput').trigger('focus')
+  })
           
 
 
