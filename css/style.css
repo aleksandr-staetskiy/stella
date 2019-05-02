@@ -50,6 +50,19 @@ img {
 .mobile-panel {
   display: none; }
 
+.owl-prev {
+  position: absolute;
+  left: -5%;
+  top: 50%; }
+
+.owl-next {
+  position: absolute;
+  right: -5%;
+  top: 50%; }
+
+.fas {
+  font-size: 30px; }
+
 @media (max-width: 768px) {
   .mobile-panel {
     display: -webkit-box;

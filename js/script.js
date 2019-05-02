@@ -5,7 +5,7 @@ function owlInitialize() {
           loop:true,    
           margin: 5,  
           nav: true,
-          navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+          navText: ["<i class='fas fa-chevron-left'></i>", "<i class='fas fa-chevron-right'></i>"],
           dots: false,        
           responsive:{
               0:{
