@@ -32,14 +32,24 @@ img {
     border: none;
 }
 
+.mobile-panel {
+    display: none;
+}
+
 
 
 @media (max-width: 768px) {
+
     .mobile-panel {
         display: flex;
     }
 
     .desktop-panel {
         display: none;
+    }
+
+    .m-none {
+        margin-left: 0;
+        margin-right: 0;
     }
 }
