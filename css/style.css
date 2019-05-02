@@ -74,7 +74,10 @@ img {
 
   .m-none {
     margin-left: 0;
-    margin-right: 0; } }
+    margin-right: 0; }
+
+  .mini-footer {
+    height: 50px; } }
 /*  BURGER
 ========================================== */
 .burger {
@@ -449,9 +452,9 @@ nav ul.sub li a:hover {
     background-color: #fff; }
   @media (max-width: 994px) {
     .button {
-      width: 100px; }
+      width: 150px; }
     .button__text {
-      font-size: 12px; } }
+      font-size: 14px; } }
 
 .promo {
   background: url(../img/promo.jpg) no-repeat;
@@ -460,7 +463,7 @@ nav ul.sub li a:hover {
   .promo__title {
     text-transform: uppercase;
     margin-top: 20px;
-    font-size: 65px; }
+    font-size: 60px; }
   .promo__subtitle {
     color: #111111;
     margin-top: 18px;
@@ -507,7 +510,7 @@ nav ul.sub li a:hover {
     .promo__social {
       display: none; }
     .promo {
-      background: none; } }
+      background-position: center 35%; } }
 
 .social {
   margin-top: 50px;
@@ -561,6 +564,8 @@ nav ul.sub li a:hover {
     height: 100px;
     margin: 0 auto; }
   @media (max-width: 768px) {
+    .course {
+      margin-bottom: 0; }
     .course__title {
       height: 35px; }
     .course__img {
