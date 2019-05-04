@@ -43,7 +43,7 @@
             <a href="tel:+788129823201" class="header__phone">8 812 982-32-01</a>
           </div>
           <div class="col-lg-2 col-md-2">
-            <button class="button button_light">
+            <button class="button button_light" data-toggle="modal" data-target="#appointment">
               <span class="button__text button__text_dark">ЗАПИСАТЬСЯ</span>
             </button>
           </div>
@@ -93,7 +93,7 @@
               <li class="promo__item"><a href="" class="promo__link">Визажист</a></li>
               <li class="promo__item"><a href="" class="promo__link">Повышение квалификации</a></li>
             </ul>
-            <button class="button button_promo">
+            <button class="button button_promo" data-toggle="modal" data-target="#appointment">
               <span class="button__text">ЗАПИСАТЬСЯ</span>
             </button>
           </div>
@@ -105,7 +105,7 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-10 col-md-10 col-sm-10 col-11">
-            <a href="">
+            <a href="#" data-toggle="modal" data-target="#appointment">
               <picture>
                 <source media="(max-width: 530px)" srcset="img/discount-mob-1.png">
                 <img src="img/discount-1.png" alt="">
@@ -211,7 +211,7 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-10 col-md-10 col-sm-10 col-11">
-            <a href="">
+            <a href="#" data-toggle="modal" data-target="#appointment">
               <picture>
                 <source media="(max-width: 530px)" srcset="img/discount-mob-2.png">
                 <img src="img/discount-2.png" alt="">
@@ -350,7 +350,7 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-10 col-md-10 col-sm-10 col-11">
-            <a href="">
+            <a href="#" data-toggle="modal" data-target="#appointment">
               <picture>
                 <source media="(max-width: 530px)" srcset="img/discount-mob-3.png">
                 <img src="img/discount-3.png" alt="">
@@ -575,48 +575,38 @@
       </div>
     </section>
 
-
-    <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-    Launch demo modal
-  </button>
-  
-
-  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLongTitle">Обучение парикмахеров универсалов.
-              Курс «Усиленный»</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-            Базовый курс для тех, кто хочет систематически изучать все основы парикмахерского мастерства. Подходит для новичков и мастеров, которые хотят вернуться к делу после перерыва.
-
-            Старт ближайшей группы — 17 апреля
-            
-            График обучения групп:
-            11:00 - 16:00 (2 - 3 раза в неделю).
-            16:00 - 21:00 (2 - 3 раза в неделю).
-            Группа выходного дня - 11:00 - 18.00 (суббота, воскресенье).
-            
-            Продолжительность курса - 560 академических часов (8 месяцев). 
-            370 часов из них уделяются практическим занятием.
-            Программу можно проходить по блокам, что дает возможность, повысить навыки квалификации в определенной области.
-            
-            По окончании обучению выдается Диплом государственного образца и присваивается 3-й либо 4-й разряд. Предлагается трудоустройство в лучшие салоны города.
-            
-            Обучение всего за 11000 руб. 6600 рублей!
-            
-            Кнопка: записаться (форма заявки: имя, телефон)
-            мы перезвоним вам в течение 15 минут
-        </div>
-        <div class="modal-footer">
-        </div>
+<!-- Modal for appointment-->
+<div class="modal fade" id="appointment" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Записаться</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form action="" class="form">
+          <input type="text" class="form__input" placeholder="Имя">
+          <input type="text" class="form__input" placeholder="Фамилия">
+          <input type="tel" class="form__input" placeholder="Телефон">
+          <input type="email" class="form__input" placeholder="E-mail">
+          <textarea name="message" placeholder="Оставить комментарий"></textarea>
+          <div class="checkbox course-apply__checkbox">
+            <input checked="" id="privacy_agreement" name="privacy" type="checkbox" value="true"> Я согласен(на) на обработку персональных данных в соответствии с
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer justify-content-center">
+        <button class="button" type="submit">
+          <span class="button__text">записаться</span>
+        </button>
       </div>
     </div>
-  </div> -->
+  </div>
+</div>
+
+
 
     <script src="js/jquery-3.4.0.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>

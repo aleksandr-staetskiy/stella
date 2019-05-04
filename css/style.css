@@ -63,6 +63,11 @@ img {
 .fas {
   font-size: 30px; }
 
+.modal-title {
+  color: #303030;
+  font-size: 28px;
+  text-transform: uppercase; }
+
 @media (max-width: 768px) {
   .mobile-panel {
     display: -webkit-box;
@@ -78,6 +83,22 @@ img {
 
   .mini-footer {
     height: 50px; } }
+.form__label {
+  display: block; }
+.form__input {
+  width: 100%;
+  height: 40px;
+  padding: 0 12px;
+  border: 1px solid #ded9d9;
+  border-radius: 5px;
+  margin-bottom: 7px; }
+
+textarea {
+  width: 100%;
+  padding: 5px 12px;
+  border: 1px solid #ded9d9;
+  border-radius: 5px; }
+
 /*  BURGER
 ========================================== */
 .burger {
@@ -427,23 +448,24 @@ nav ul.sub li a:hover {
   width: 158px;
   -webkit-transition: 0.6s ease;
   transition: 0.6s ease;
-  padding-top: 3px; }
+  padding-top: 6px; }
   .button_discount {
     margin-left: 30px; }
   .button_course {
     margin-top: 10px;
     margin-bottom: 30px; }
   .button__text {
+    text-transform: uppercase;
     font-size: 16px;
     color: white; }
     .button__text_dark {
-      text-transform: uppercase;
       color: #111; }
   .button_promo {
+    width: 190px;
     margin-top: 30px;
     margin: 0 auto;
-    padding-top: 6px;
-    padding-bottom: 4px; }
+    padding-top: 10px;
+    padding-bottom: 7px; }
   .button:hover {
     -webkit-transform: scale(1.1);
             transform: scale(1.1); }
@@ -599,7 +621,8 @@ nav ul.sub li a:hover {
   padding-top: 24px;
   padding-bottom: 18px;
   background: #303030;
-  color: #fff; }
+  color: #fff;
+  margin-bottom: 45px; }
   .advantages .advantage {
     text-align: center;
     margin-bottom: 17px; }
@@ -682,5 +705,8 @@ nav ul.sub li a:hover {
     color: #111; }
     .feedback__more:hover {
       color: #989898; }
+
+.contacts__info-blcok {
+  background: #303030; }
 
 /*# sourceMappingURL=style.css.map */
