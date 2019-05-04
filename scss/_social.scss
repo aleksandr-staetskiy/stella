@@ -5,4 +5,10 @@
         text-align: left;
         margin-top: 15px;
     }
+
+    @media (max-width: 720px) {
+        &_contacts {
+            text-align: center;
+        } 
+    }
 }

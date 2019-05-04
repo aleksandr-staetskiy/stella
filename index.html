@@ -12,7 +12,8 @@
   <link rel="stylesheet" href="css/owl.carousel.min.css">
   <link rel="stylesheet" href="css/owl.theme.default.min.css">
   <!-- font awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+    crossorigin="anonymous">
   <!-- main style -->
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -584,172 +585,210 @@
         </div>
       </div>
     </section>
-
-<!-- Modal for appointment-->
-<div class="modal fade" id="appointment" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Записаться</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form action="" class="form">
-          <input type="text" class="form__input" placeholder="Имя">
-          <input type="text" class="form__input" placeholder="Фамилия">
-          <input type="tel" class="form__input" placeholder="Телефон">
-          <input type="email" class="form__input" placeholder="E-mail">
-          <textarea name="message" placeholder="Оставить комментарий"></textarea>
-          <div class="checkbox course-apply__checkbox">
-            <input checked="" id="privacy_agreement" name="privacy" type="checkbox" value="true"> Я согласен(на) на обработку персональных данных в соответствии с
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-2 col-md-2 col-sm-3 col-4">
+            <a href="#" class="logo">
+              <span class="logo__title">STELLA PROF</span>
+              <span class="logo__subtitle">HairDressing Art Center</span>
+            </a>
           </div>
-        </form>
+          <div class="col-lg-1 col-md-2 col-sm-2 col-3">
+            <a href="" class="footer__link">О ШКОЛЕ</a>
+            <a href="" class="footer__link">КУРСЫ</a>
+            <a href="" class="footer__link">ЛИЦЕНЗИИ</a>
+          </div>
+          <div class="col-lg-1 col-md-2 col-sm-2 col-4">
+            <a href="" class="footer__link">КОМАНДА</a>
+            <a href="" class="footer__link">ОТЗЫВЫ</a>
+            <a href="" class="footer__link">КОНТАКТЫ</a>
+          </div>
+          <div class="col-lg-4 col-md-5 col-sm-4 col-12 ml-auto mt-1">
+            <a href="tel:+788129823201" class="header__phone">8 812 982-32-01</a>
+            <button class="button button_light footer__button" data-toggle="modal" data-target="#appointment">
+              <span class="button__text button__text_dark">ЗАПИСАТЬСЯ</span>
+            </button>
+          </div>
+        </div>
       </div>
-      <div class="modal-footer justify-content-center">
-        <button class="button" type="submit">
-          <span class="button__text">записаться</span>
-        </button>
-      </div>
-    </div>
-  </div>
-</div>
+    </footer>
 
-<!-- modal more 1  -->
-<div class="modal fade" id="more1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content text-center">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Обучение парикмахеров универсалов. Курс «Усиленный»</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <p>Базовый курс для тех, кто хочет систематически изучать все основы парикмахерского мастерства. Подходит для новичков и мастеров, которые хотят вернуться к делу после перерыва.</p>
-        <p>Старт ближайшей группы — 17 апреля</p>
-        <ul class="course__schedule">
-          <li>график обучения групп:</li>
-          <li>11:00 - 16:00 (2 - 3 раза в неделю).</li>
-          <li>16:00 - 21:00 (2 - 3 раза в неделю).</li>
-          <li>Группа выходного дня - 11:00 - 18.00(суббота, воскресенье).</li>
-        </ul>
-        <p>По окончании обучению выдается Диплом государственного образца и присваивается 3-й либо 4-й разряд. Предлагается трудоустройство в лучшие салоны города.</p>
-        <p>Обучение всего за 11000 руб. 6600 рублей!</p>
-      </div>
-      <div class="modal-footer justify-content-center">
-        <button class="button" type="submit" data-toggle="modal" data-target="#appointment">
-          <span class="button__text">записаться</span>
-        </button>
+    <!-- Modal for appointment-->
+    <div class="modal fade" id="appointment" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Записаться</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form action="" class="form">
+              <input type="text" class="form__input" placeholder="Имя">
+              <input type="text" class="form__input" placeholder="Фамилия">
+              <input type="tel" class="form__input" placeholder="Телефон">
+              <input type="email" class="form__input" placeholder="E-mail">
+              <textarea name="message" placeholder="Оставить комментарий"></textarea>
+              <div class="checkbox course-apply__checkbox">
+                <input checked="" id="privacy_agreement" name="privacy" type="checkbox" value="true"> Я согласен(на) на
+                обработку персональных данных в соответствии с
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer justify-content-center">
+            <button class="button" type="submit">
+              <span class="button__text">записаться</span>
+            </button>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
 
-<!-- modal more 2  -->
-<div class="modal fade" id="more2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content text-center">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Курсы повышения квалификации парикмахера до 5-го разряда</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <p>Курсы для тех, кто желает стать экспертом. 
-          Программа рассчитана для мастеров, которые имеют 3-й и 4-й разряд, и отработали в салонах по профессии не менее года.</p>
-        <p>Старт ближайшей группы — 17 апреля</p>
-        <ul class="course__schedule">
-          <li>график обучения групп:</li>
-          <li>11:00 - 16:00 (2 - 3 раза в неделю).</li>
-          <li>16:00 - 21:00 (2 - 3 раза в неделю).</li>
-          <li>Группа выходного дня - 11:00 - 18.00(суббота, воскресенье).</li>
-        </ul>
-        <p>Продолжительность курса 174 часов (3 месяца). 
-          80% всего курса составляют практические занятия и мастер-классы. 
-          Учебная практика на моделях, предоставленных образовательным центром.</p>
-        <p>Только до 20 сентября!
-          <br>
-          Обучение всего за 18000 рублей!</p>
-      </div>
-      <div class="modal-footer justify-content-center">
-        <button class="button" type="submit" data-toggle="modal" data-target="#appointment">
-          <span class="button__text">записаться</span>
-        </button>
+    <!-- modal more 1  -->
+    <div class="modal fade" id="more1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content text-center">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Обучение парикмахеров универсалов. Курс «Усиленный»</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Базовый курс для тех, кто хочет систематически изучать все основы парикмахерского мастерства. Подходит
+              для новичков и мастеров, которые хотят вернуться к делу после перерыва.</p>
+            <p>Старт ближайшей группы — 17 апреля</p>
+            <ul class="course__schedule">
+              <li>график обучения групп:</li>
+              <li>11:00 - 16:00 (2 - 3 раза в неделю).</li>
+              <li>16:00 - 21:00 (2 - 3 раза в неделю).</li>
+              <li>Группа выходного дня - 11:00 - 18.00(суббота, воскресенье).</li>
+            </ul>
+            <p>По окончании обучению выдается Диплом государственного образца и присваивается 3-й либо 4-й разряд.
+              Предлагается трудоустройство в лучшие салоны города.</p>
+            <p>Обучение всего за 11000 руб. 6600 рублей!</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+            <button class="button" type="submit" data-toggle="modal" data-target="#appointment">
+              <span class="button__text">записаться</span>
+            </button>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
 
-<!-- modal more 3  -->
-<div class="modal fade" id="more3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content text-center">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Обучение барберов с нуля.</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <p>Данный курс позволит стать барбером любому желающему. 
-          Даже тому, кто никогда не держал в руках ножницы и слабо представляет, как выглядит опасная бритва.</p>
-        <p>Старт ближайшей группы — 17 апреля</p>
-        <ul class="course__schedule">
-          <li>график обучения групп:</li>
-          <li>11:00 - 16:00 (2 - 3 раза в неделю).</li>
-          <li>16:00 - 21:00 (2 - 3 раза в неделю).</li>
-          <li>Группа выходного дня - 11:00 - 18.00(суббота, воскресенье).</li>
-        </ul>
-        <p>Продолжительность курса 5 дней (35 академических часов). 
-          После окончания обучения ученик сдает экзамен по всей программе курса. 
-          По окончанию курса ученику выдается сертификат. 
-          Ученик в полной мере будет обладать всеми необходимыми знаниями и навыками работы в барбершопе.</p>
-        <p>Обучение всего за 23500 руб. 17500 рублей!
-          <br>
-          Забронируйте место в группе и зафиксируйте осеннюю цену оплатив от 1000 руб.</p>
-      </div>
-      <div class="modal-footer justify-content-center">
-        <button class="button" type="submit" data-toggle="modal" data-target="#appointment">
-          <span class="button__text">записаться</span>
-        </button>
+    <!-- modal more 2  -->
+    <div class="modal fade" id="more2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content text-center">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Курсы повышения квалификации парикмахера до 5-го разряда</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Курсы для тех, кто желает стать экспертом.
+              Программа рассчитана для мастеров, которые имеют 3-й и 4-й разряд, и отработали в салонах по профессии не
+              менее года.</p>
+            <p>Старт ближайшей группы — 17 апреля</p>
+            <ul class="course__schedule">
+              <li>график обучения групп:</li>
+              <li>11:00 - 16:00 (2 - 3 раза в неделю).</li>
+              <li>16:00 - 21:00 (2 - 3 раза в неделю).</li>
+              <li>Группа выходного дня - 11:00 - 18.00(суббота, воскресенье).</li>
+            </ul>
+            <p>Продолжительность курса 174 часов (3 месяца).
+              80% всего курса составляют практические занятия и мастер-классы.
+              Учебная практика на моделях, предоставленных образовательным центром.</p>
+            <p>Только до 20 сентября!
+              <br>
+              Обучение всего за 18000 рублей!</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+            <button class="button" type="submit" data-toggle="modal" data-target="#appointment">
+              <span class="button__text">записаться</span>
+            </button>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
 
-<!-- modal more 4  -->
-<div class="modal fade" id="more4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content text-center">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Курс: «Прически и укладки»</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <p>Программа рассчитана для тех, кто хочет научиться выполнять свадебные, вечерние, коктейльные и просто повседневные прически, не имея опыта работы с волосами, либо с минимальным опытом.</p>
-        <p>Старт ближайшей группы — 17 апреля</p>
-        <ul class="course__schedule">
-          <li>график обучения групп:</li>
-          <li>11:00 - 16:00 (2 - 3 раза в неделю).</li>
-          <li>16:00 - 21:00 (2 - 3 раза в неделю).</li>
-          <li>Группа выходного дня - 11:00 - 18.00(суббота, воскресенье).</li>
-        </ul>
-        <p>Продолжительность курса - 20 занятий(140 академических часов). 
-          110 часов из них уделяются практическим занятием.  </p>
-      </div>
-      <div class="modal-footer justify-content-center">
-        <button class="button" type="submit" data-toggle="modal" data-target="#appointment">
-          <span class="button__text">записаться</span>
-        </button>
+    <!-- modal more 3  -->
+    <div class="modal fade" id="more3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content text-center">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Обучение барберов с нуля.</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Данный курс позволит стать барбером любому желающему.
+              Даже тому, кто никогда не держал в руках ножницы и слабо представляет, как выглядит опасная бритва.</p>
+            <p>Старт ближайшей группы — 17 апреля</p>
+            <ul class="course__schedule">
+              <li>график обучения групп:</li>
+              <li>11:00 - 16:00 (2 - 3 раза в неделю).</li>
+              <li>16:00 - 21:00 (2 - 3 раза в неделю).</li>
+              <li>Группа выходного дня - 11:00 - 18.00(суббота, воскресенье).</li>
+            </ul>
+            <p>Продолжительность курса 5 дней (35 академических часов).
+              После окончания обучения ученик сдает экзамен по всей программе курса.
+              По окончанию курса ученику выдается сертификат.
+              Ученик в полной мере будет обладать всеми необходимыми знаниями и навыками работы в барбершопе.</p>
+            <p>Обучение всего за 23500 руб. 17500 рублей!
+              <br>
+              Забронируйте место в группе и зафиксируйте осеннюю цену оплатив от 1000 руб.</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+            <button class="button" type="submit" data-toggle="modal" data-target="#appointment">
+              <span class="button__text">записаться</span>
+            </button>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
+
+    <!-- modal more 4  -->
+    <div class="modal fade" id="more4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content text-center">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Курс: «Прически и укладки»</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Программа рассчитана для тех, кто хочет научиться выполнять свадебные, вечерние, коктейльные и просто
+              повседневные прически, не имея опыта работы с волосами, либо с минимальным опытом.</p>
+            <p>Старт ближайшей группы — 17 апреля</p>
+            <ul class="course__schedule">
+              <li>график обучения групп:</li>
+              <li>11:00 - 16:00 (2 - 3 раза в неделю).</li>
+              <li>16:00 - 21:00 (2 - 3 раза в неделю).</li>
+              <li>Группа выходного дня - 11:00 - 18.00(суббота, воскресенье).</li>
+            </ul>
+            <p>Продолжительность курса - 20 занятий(140 академических часов).
+              110 часов из них уделяются практическим занятием. </p>
+          </div>
+          <div class="modal-footer justify-content-center">
+            <button class="button" type="submit" data-toggle="modal" data-target="#appointment">
+              <span class="button__text">записаться</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
     <script src="js/jquery-3.4.0.min.js"></script>
