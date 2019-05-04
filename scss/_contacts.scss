@@ -1,6 +1,28 @@
 .contacts {
 
   &__info-blcok {
+    font-size: 16px;
+    line-height: 1.1;
+    font-weight: light;
+    padding: 80px 15px;
     background: $bg;
+    color: #b2b2b2;
+  }
+
+  &__place {
+    display: block;
+  }
+
+  &__number {
+    display: block;
+    margin-top: 15px;
+    color: #b2b2b2;
+  }
+
+  @media (max-width: 744px) {
+    
+    &__info-blcok {
+      padding: 20px 30px;
+    }
   }
 }
