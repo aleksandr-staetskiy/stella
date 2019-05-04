@@ -1,12 +1,7 @@
 .social {
-    margin-top: 50px;
-    margin-bottom: 120px;
     text-align: center;
 
     @media (max-width: 994px) {
-        & {
-            margin-top: 25px;
-            margin-bottom: 50px;
-        }
+    
     }
 }

@@ -20,15 +20,15 @@
 <body>
   <div class="page-wrapper">
     <header class="header">
-      <div class="container">
-        <div class="row desktop-panel align-items-center">
+      <div class="container-fluid">
+        <div class="row desktop-panel align-items-center justify-content-between">
           <div class="col-lg-2 col-md-2 col-sm-4">
             <a href="#" class="logo">
               <span class="logo__title">STELLA PROF</span>
               <span class="logo__subtitle">HairDressing Art Center</span>
             </a>
           </div>
-          <div class="col-lg-6 col-md-6">
+          <div class="col-lg-5 col-md-5">
             <div class="navbar">
               <ul class="navbar__list">
                 <li class="navbar__item"><a href="" class="navbar__link">О ШКОЛЕ</a></li>
@@ -39,8 +39,18 @@
               </ul>
             </div>
           </div>
-          <div class="col-lg-2 col-md-2 ">
+          <div class="col-lg-1 col-md-1">
             <a href="tel:+788129823201" class="header__phone">8 812 982-32-01</a>
+          </div>
+          <div class="col-lg-2 col-md-2">
+            <div class="social">
+              <a href="" class="social__link">
+                <img src="img/Instagram_icon.png" alt="instagram" class="sicial__icon">
+              </a>
+              <a href="" class="social__link">
+                <img src="img/vk.png" alt="vk" class="sicial__icon">
+              </a>
+            </div>
           </div>
           <div class="col-lg-2 col-md-2">
             <button class="button button_light" data-toggle="modal" data-target="#appointment">
@@ -139,7 +149,7 @@
                 <p>Продолжительность курса - 560 академических часов (8 месяцев).
                   Из них 370 часов практики.</p>
               </div>
-              <button class="button button_course">
+              <button class="button button_course" data-toggle="modal" data-target="#more1">
                 <span class="button__text">ПОДРОБНЕЕ</span>
               </button>
             </article>
@@ -158,7 +168,7 @@
               <div class="course__duration">
                 <p>Продолжительность курса5 дней (35 академических часов). </p>
               </div>
-              <button class="button button_course">
+              <button class="button button_course" data-toggle="modal" data-target="#more2">
                 <span class="button__text">ПОДРОБНЕЕ</span>
               </button>
             </article>
@@ -178,7 +188,7 @@
                 <p>Продолжительность курса - 20 занятий (140 академических часов).
                   110 часов из них - практика.</p>
               </div>
-              <button class=" button button_course">
+              <button class=" button button_course" data-toggle="modal" data-target="#more3">
                 <span class="button__text">ПОДРОБНЕЕ</span>
               </button>
             </article>
@@ -198,7 +208,7 @@
                 <p>Продолжительность курса - 20 занятий (140 академических часов).
                   110 часов из них - практика.</p>
               </div>
-              <button class=" button button_course">
+              <button class=" button button_course" data-toggle="modal" data-target="#more4">
                 <span class="button__text">ПОДРОБНЕЕ</span>
               </button>
             </article>
@@ -606,6 +616,140 @@
   </div>
 </div>
 
+<!-- modal more 1  -->
+<div class="modal fade" id="more1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content text-center">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Обучение парикмахеров универсалов. Курс «Усиленный»</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Базовый курс для тех, кто хочет систематически изучать все основы парикмахерского мастерства. Подходит для новичков и мастеров, которые хотят вернуться к делу после перерыва.</p>
+        <p>Старт ближайшей группы — 17 апреля</p>
+        <ul class="course__schedule">
+          <li>график обучения групп:</li>
+          <li>11:00 - 16:00 (2 - 3 раза в неделю).</li>
+          <li>16:00 - 21:00 (2 - 3 раза в неделю).</li>
+          <li>Группа выходного дня - 11:00 - 18.00(суббота, воскресенье).</li>
+        </ul>
+        <p>По окончании обучению выдается Диплом государственного образца и присваивается 3-й либо 4-й разряд. Предлагается трудоустройство в лучшие салоны города.</p>
+        <p>Обучение всего за 11000 руб. 6600 рублей!</p>
+      </div>
+      <div class="modal-footer justify-content-center">
+        <button class="button" type="submit" data-toggle="modal" data-target="#appointment">
+          <span class="button__text">записаться</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- modal more 2  -->
+<div class="modal fade" id="more2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content text-center">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Курсы повышения квалификации парикмахера до 5-го разряда</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Курсы для тех, кто желает стать экспертом. 
+          Программа рассчитана для мастеров, которые имеют 3-й и 4-й разряд, и отработали в салонах по профессии не менее года.</p>
+        <p>Старт ближайшей группы — 17 апреля</p>
+        <ul class="course__schedule">
+          <li>график обучения групп:</li>
+          <li>11:00 - 16:00 (2 - 3 раза в неделю).</li>
+          <li>16:00 - 21:00 (2 - 3 раза в неделю).</li>
+          <li>Группа выходного дня - 11:00 - 18.00(суббота, воскресенье).</li>
+        </ul>
+        <p>Продолжительность курса 174 часов (3 месяца). 
+          80% всего курса составляют практические занятия и мастер-классы. 
+          Учебная практика на моделях, предоставленных образовательным центром.</p>
+        <p>Только до 20 сентября!
+          <br>
+          Обучение всего за 18000 рублей!</p>
+      </div>
+      <div class="modal-footer justify-content-center">
+        <button class="button" type="submit" data-toggle="modal" data-target="#appointment">
+          <span class="button__text">записаться</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- modal more 3  -->
+<div class="modal fade" id="more3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content text-center">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Обучение барберов с нуля.</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Данный курс позволит стать барбером любому желающему. 
+          Даже тому, кто никогда не держал в руках ножницы и слабо представляет, как выглядит опасная бритва.</p>
+        <p>Старт ближайшей группы — 17 апреля</p>
+        <ul class="course__schedule">
+          <li>график обучения групп:</li>
+          <li>11:00 - 16:00 (2 - 3 раза в неделю).</li>
+          <li>16:00 - 21:00 (2 - 3 раза в неделю).</li>
+          <li>Группа выходного дня - 11:00 - 18.00(суббота, воскресенье).</li>
+        </ul>
+        <p>Продолжительность курса 5 дней (35 академических часов). 
+          После окончания обучения ученик сдает экзамен по всей программе курса. 
+          По окончанию курса ученику выдается сертификат. 
+          Ученик в полной мере будет обладать всеми необходимыми знаниями и навыками работы в барбершопе.</p>
+        <p>Обучение всего за 23500 руб. 17500 рублей!
+          <br>
+          Забронируйте место в группе и зафиксируйте осеннюю цену оплатив от 1000 руб.</p>
+      </div>
+      <div class="modal-footer justify-content-center">
+        <button class="button" type="submit" data-toggle="modal" data-target="#appointment">
+          <span class="button__text">записаться</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- modal more 4  -->
+<div class="modal fade" id="more4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content text-center">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Курс: «Прически и укладки»</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Программа рассчитана для тех, кто хочет научиться выполнять свадебные, вечерние, коктейльные и просто повседневные прически, не имея опыта работы с волосами, либо с минимальным опытом.</p>
+        <p>Старт ближайшей группы — 17 апреля</p>
+        <ul class="course__schedule">
+          <li>график обучения групп:</li>
+          <li>11:00 - 16:00 (2 - 3 раза в неделю).</li>
+          <li>16:00 - 21:00 (2 - 3 раза в неделю).</li>
+          <li>Группа выходного дня - 11:00 - 18.00(суббота, воскресенье).</li>
+        </ul>
+        <p>Продолжительность курса - 20 занятий(140 академических часов). 
+          110 часов из них уделяются практическим занятием.  </p>
+      </div>
+      <div class="modal-footer justify-content-center">
+        <button class="button" type="submit" data-toggle="modal" data-target="#appointment">
+          <span class="button__text">записаться</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
 
 
     <script src="js/jquery-3.4.0.min.js"></script>

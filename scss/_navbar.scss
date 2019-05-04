@@ -1,13 +1,13 @@
 .navbar {
     margin-top: 17px;
   &__list {
+    padding-left: 0;
     display: flex;
-    justify-content: space-between;
     list-style: none;
   }
 
   &__item {
-      margin-right: 20px;
+      margin-right: 10px;
   }
 
   &__link {
@@ -20,7 +20,7 @@
       }  
 
       &__item {
-        margin-right: 10px;
+        margin-right: 7px;
     }
 
     &__list {

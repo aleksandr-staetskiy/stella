@@ -419,22 +419,20 @@ nav ul.sub li a:hover {
 .navbar {
   margin-top: 17px; }
   .navbar__list {
+    padding-left: 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
     list-style: none; }
   .navbar__item {
-    margin-right: 20px; }
+    margin-right: 10px; }
   .navbar__link {
     white-space: nowrap; }
   @media (max-width: 994px) {
     .navbar {
       font-size: 14px; }
     .navbar__item {
-      margin-right: 10px; }
+      margin-right: 7px; }
     .navbar__list {
       padding-left: 0; } }
   @media (max-width: 768px) {
@@ -535,13 +533,7 @@ nav ul.sub li a:hover {
       background-position: center 35%; } }
 
 .social {
-  margin-top: 50px;
-  margin-bottom: 120px;
   text-align: center; }
-  @media (max-width: 994px) {
-    .social {
-      margin-top: 25px;
-      margin-bottom: 50px; } }
 
 .discount {
   padding-top: 40px;
