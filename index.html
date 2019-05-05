@@ -11,6 +11,8 @@
   <!-- slider include -->
   <link rel="stylesheet" href="css/owl.carousel.min.css">
   <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <!-- animation file  -->
+  <link rel="stylesheet" href="css/animate.css">
   <!-- font awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
     crossorigin="anonymous">
@@ -93,8 +95,8 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-xl-8 col-lg-9 col-md-6 col-sm-7 col-10">
-            <h1 class="promo__title">ОБУЧАЕМ ПАРИКМАХЕРСКОМУ ИСКУССТВУ</h1>
-            <div class="promo__subtitle">
+            <h1 class="promo__title wow fadeInUp">ОБУЧАЕМ ПАРИКМАХЕРСКОМУ ИСКУССТВУ</h1>
+            <div class="promo__subtitle wow fadeInUp" data-wow-duration="1.8s">
               <p>НОВИЧКОВ И ПРОФЕССИОНАЛОВ</p>
             </div>
             <ul class="promo__list">
@@ -104,7 +106,7 @@
               <li class="promo__item"><a href="" class="promo__link">Визажист</a></li>
               <li class="promo__item"><a href="" class="promo__link">Повышение квалификации</a></li>
             </ul>
-            <button class="button button_promo" data-toggle="modal" data-target="#appointment">
+            <button class="button button_promo wow pulse" data-wow-iteration="infinite" data-wow-duration="2s" data-toggle="modal" data-target="#appointment">
               <span class="button__text">ЗАПИСАТЬСЯ</span>
             </button>
           </div>
@@ -115,7 +117,7 @@
     <section class="discount">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-lg-10 col-md-10 col-sm-10 col-11">
+          <div class="col-lg-10 col-md-10 col-sm-10 col-11 wow fadeInUp">
             <a href="#" data-toggle="modal" data-target="#appointment">
               <picture>
                 <source media="(max-width: 530px)" srcset="img/discount-mob-1.png">
@@ -134,7 +136,7 @@
             <h3 class="courses__title">НАШИ КУРСЫ</h3>
           </div>
         </div>
-        <div class="row m-none justify-content-between owl-theme owl-carousel to_mobal">
+        <div class="row m-none justify-content-between owl-theme owl-carousel to_mobal wow fadeInUp">
           <div class="col-lg-3 col-md-3 col-sm-12 col-12">
             <article class="course">
               <img src="img/course-1.jpg" alt="haircut" class="course__img">
@@ -221,7 +223,7 @@
     <section class="discount">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-lg-10 col-md-10 col-sm-10 col-11">
+          <div class="col-lg-10 col-md-10 col-sm-10 col-11 wow fadeInUp">
             <a href="#" data-toggle="modal" data-target="#appointment">
               <picture>
                 <source media="(max-width: 530px)" srcset="img/discount-mob-2.png">
@@ -241,15 +243,15 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-6 wow fadeInLeft">
             <img src="img/about-1.jpg" alt="studio" class="about__img">
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6 wow fadeInRight">
             <img src="img/about-2.jpg" alt="studio" class="about__img">
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-lg-10 col-sm-10 col-11">
+          <div class="col-lg-10 col-sm-10 col-11 wow fadeInUp" data-wow-duration="1,6s">
             <div class="about__descr">
               <p>Школа парикмахерского искусства STELLA проводит обучение на высоком уровне по самым современным
                 тенденциям. Помимо
@@ -360,7 +362,7 @@
     <div class="discount">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-lg-10 col-md-10 col-sm-10 col-11">
+          <div class="col-lg-10 col-md-10 col-sm-10 col-11 wow fadeInUp">
             <a href="#" data-toggle="modal" data-target="#appointment">
               <picture>
                 <source media="(max-width: 530px)" srcset="img/discount-mob-3.png">
@@ -377,7 +379,7 @@
         <div class="team__title">
           <span>НАША КОМАНДА</span>
         </div>
-        <div class="row m-none justify-content-center owl-theme owl-carousel to_mobal">
+        <div class="row m-none justify-content-center owl-theme owl-carousel to_mobal wow fadeInUp">
           <div class="col-lg-3 col-md-4">
             <article class="team__item">
               <img src="img/team-1.jpg" alt="ИЛЬЯС МУСИН" class="team__avatar">
@@ -562,11 +564,11 @@
       <div class="container">
         <h6 class="contacts__title">Контакты</h6>
         <div class="row no-gutters">
-          <div class="col-lg-9 col-md-9">
+          <div class="col-lg-9 col-md-9 fadeInLeft">
             <iframe src="https://yandex.ru/map-widget/v1/-/CCVJmA97" class="yandex-map" width="100%" height="300px"
               frameborder="1" allowfullscreen="true"></iframe>
           </div>
-          <div class="col-lg-3 col-md-3">
+          <div class="col-lg-3 col-md-3 wow fadeInRight">
             <div class="contacts__info-blcok">
               <span class="contacts__place">Санкт-Петербург, <br> ст. м. «Площадь Восстания», Суворовский пр., 35</span>
               <a href="tel:+78129829099" class="contacts__number">Записаться на курс: <br>
@@ -794,6 +796,10 @@
     <script src="js/jquery-3.4.0.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
     <script src="js/script.js"></script>
   </div>
 </body>
