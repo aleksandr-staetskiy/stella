@@ -537,6 +537,12 @@ nav ul.sub li a:hover {
 
 .social {
   text-align: center; }
+  .social__link {
+    display: inline-block;
+    width: 27px;
+    height: 27px; }
+  .social__icon {
+    border-radius: 7px; }
   .social_contacts {
     text-align: left;
     margin-top: 15px; }
@@ -575,6 +581,7 @@ nav ul.sub li a:hover {
     -webkit-transform: scale(1.1);
             transform: scale(1.1); }
   .course__title {
+    text-transform: uppercase;
     padding: 0px 5px;
     height: 60px;
     margin-top: 20px;

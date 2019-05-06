@@ -1,6 +1,16 @@
 .social {
     text-align: center;
 
+    &__link {
+        display: inline-block;
+        width: 27px;
+        height: 27px;
+    }
+
+    &__icon {
+        border-radius: 7px;
+    }
+
     &_contacts {
         text-align: left;
         margin-top: 15px;
