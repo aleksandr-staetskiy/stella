@@ -1,87 +1,92 @@
 body {
-    @include regular;
-    color: $font-color;
+  @include regular;
+  color: $font-color;
 }
 
 .page-wrapper {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.4s ease;
+  &:hover {
     text-decoration: none;
-    color: #fff;
-    transition: 0.4s ease;
-    &:hover {
-        text-decoration: none;
-        color: #d3d3d3;
-    }
+    color: #d3d3d3;
+  }
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .mini-footer {
-    margin-top: 65px;
-    background: $bg;
-    height: 80px;
+  margin-top: 65px;
+  background: $bg;
+  height: 80px;
 }
 
 .yandex-map {
-    border: none;
+  border: none;
 }
 
 .mobile-panel {
-    display: none;
+  display: none;
 }
 
 .owl-prev {
-    position: absolute;
-    left: -5%;
-    top: 50%;
+  position: absolute;
+  left: -5%;
+  top: 50%;
 }
 
 .owl-next {
-    position: absolute;
-    right: -5%;
-    top: 50%;
+  position: absolute;
+  right: -5%;
+  top: 50%;
 }
 
 .fas {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .modal-title {
-    color: $bg;
-    font-size: 28px;
-    text-transform: uppercase;
+  color: $bg;
+  font-size: 28px;
+  text-transform: uppercase;
 }
 
 summary::-webkit-details-marker {
-    display: none;
+  display: none;
+}
+
+summary {
+  &:focus {
+    outline: none;
+  }
 }
 
 @media (max-width: 768px) {
+  .mobile-panel {
+    display: flex;
+  }
 
-    .mobile-panel {
-        display: flex;
-    }
+  .desktop-panel {
+    display: none;
+  }
 
-    .desktop-panel {
-        display: none;
-    }
+  .m-none {
+    margin-left: 0;
+    margin-right: 0;
+  }
 
-    .m-none {
-        margin-left: 0;
-        margin-right: 0;
-    }
+  .mini-footer {
+    height: 50px;
+  }
 
-    .mini-footer {
-        height: 50px;
-    }
-
-    .mob_ml {
-        margin-left: auto;
-    }
+  .mob_ml {
+    margin-left: auto;
+  }
 }

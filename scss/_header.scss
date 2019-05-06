@@ -23,12 +23,13 @@
 .logo {
     white-space: nowrap;
     &__title {
-
+        margin-left: 20px;
         font-size: 27px;
         text-transform: uppercase;
     }
 
     &__subtitle {
+        margin-left: 20px;
         display: block;
         margin-top: -10px;
         font-size: 14px;

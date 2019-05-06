@@ -71,6 +71,9 @@ img {
 summary::-webkit-details-marker {
   display: none; }
 
+summary:focus {
+  outline: none; }
+
 @media (max-width: 768px) {
   .mobile-panel {
     display: -webkit-box;
@@ -405,9 +408,11 @@ nav ul.sub li a:hover {
 .logo {
   white-space: nowrap; }
   .logo__title {
+    margin-left: 20px;
     font-size: 27px;
     text-transform: uppercase; }
   .logo__subtitle {
+    margin-left: 20px;
     display: block;
     margin-top: -10px;
     font-size: 14px; }
