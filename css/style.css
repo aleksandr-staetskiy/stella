@@ -633,6 +633,8 @@ nav ul.sub li a:hover {
 .advantages {
   padding-top: 24px;
   padding-bottom: 18px;
+  margin-top: 25px;
+  margin-bottom: 10px;
   background: #303030;
   color: #fff;
   margin-bottom: 45px; }
@@ -712,6 +714,8 @@ nav ul.sub li a:hover {
     width: 280px;
     margin: 0 auto; }
   .feedback__more {
+    display: inline-block;
+    border-bottom: 1px dashed #303030;
     margin-top: 45px;
     font-size: 18px;
     text-transform: uppercase;

@@ -28,6 +28,8 @@
     }
 
     &__more {
+        display: inline-block;
+        border-bottom: 1px dashed $bg;
         margin-top: 45px;
         font-size: 18px;
         text-transform: uppercase;
