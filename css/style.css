@@ -68,6 +68,9 @@ img {
   font-size: 28px;
   text-transform: uppercase; }
 
+summary::-webkit-details-marker {
+  display: none; }
+
 @media (max-width: 768px) {
   .mobile-panel {
     display: -webkit-box;
