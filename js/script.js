@@ -64,3 +64,12 @@ $('a[href*="#"]').on('click', function(e) {
       'linear'
     )
   })
+
+//   preventing default on submit modal btn
+
+(function() {
+    const formButton = document.getElementById(button_modal);
+    formButton.addEventListener('submit', function(e) {
+        e.preventDefault();
+    })
+})

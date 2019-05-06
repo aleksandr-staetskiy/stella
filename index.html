@@ -18,6 +18,7 @@
     crossorigin="anonymous">
   <!-- main style -->
   <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="img/favicon-stella.png">
 </head>
 
 <body>
@@ -56,7 +57,7 @@
             </div>
           </div>
           <div class="col-lg-2 col-md-2">
-            <button class="button button_light" data-toggle="modal" data-target="#appointment">
+            <button class="button button_light" data-toggle="modal" data-target="#appointment" onclick="yaCounter45893049.reachGoal('skidka40'); return true;">
               <span class="button__text button__text_dark">ЗАПИСАТЬСЯ</span>
             </button>
           </div>
@@ -111,7 +112,7 @@
               <li class="promo__item"><a href="#courses" class="promo__link">Лечение волос</a></li>   
             </ul>
             <button class="button button_promo wow pulse" data-wow-iteration="infinite" data-wow-duration="2s"
-              data-toggle="modal" data-target="#appointment">
+              data-toggle="modal" data-target="#appointment" onclick="yaCounter45893049.reachGoal('skidka40'); return true;">
               <span class="button__text">ЗАПИСАТЬСЯ</span>
             </button>
           </div>
@@ -142,11 +143,11 @@
           </div>
         </div>
         <div class="row m-none justify-content-between owl-theme owl-carousel to_mobal wow fadeInUp">
-          <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+          <div class="col-lg-3 col-md-6 col-sm-12 col-12">
             <article class="course">
               <img src="img/course-1.jpg" alt="haircut" class="course__img">
-              <h4 class="course__title">ПАРИКМАХЕР УНИВЕРСАЛ«УСИЛЕННЫЙ»</h4>
-              <span class="course__subtitle">Старт ближайшей группы <strong>11 мая и 30 мая</strong> </span>
+              <h4 class="course__title">ПАРИКМАХЕР УНИВЕРСАЛ«УСИЛЕННЫЙ»</h4>
+              <span class="course__subtitle">Старт ближайшей группы <strong>11 и 30 мая</strong> </span>
               <ul class="course__schedule">
                 <li>график обучения групп:</li>
                 <li>11:00 - 16:00 (2 - 3 раза в неделю).</li>
@@ -162,7 +163,7 @@
               </button>
             </article>
           </div>
-          <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+          <div class="col-lg-3 col-md-6 col-sm-12 col-12">
             <article class="course">
               <img src="img/course-3.jpg" alt="haircut" class="course__img">
               <h4 class="course__title">сложные техники окрашивания</h4>
@@ -170,7 +171,7 @@
               <ul class="course__schedule">
                 <li>график обучения групп:</li>
                 <li>11:00 - 16:00 (2-3 раза в неделю).</li>
-                <li>116:00 - 21:00 (2 - 3 раза в неделю). </li>
+                <li>16:00 - 21:00 (2 - 3 раза в неделю). </li>
                 <li>Группа выходного дня - 11:00 - 18.00(суббота, воскресенье).</li>
               </ul>
               <div class="course__duration">
@@ -181,7 +182,7 @@
               </button>
             </article>
           </div>
-          <div class="col-lg-3 col-md-3 col-sm-10">
+          <div class="col-lg-3 col-md-6 col-sm-10">
             <article class="course">
               <img src="img/course-4.jpg" alt="haircut" class="course__img">
               <h4 class="course__title">Обучение барберов с нуля.</h4>
@@ -200,7 +201,7 @@
               </button>
             </article>
           </div>
-          <div class="col-lg-3 col-md-3 col-sm-10 col-12">
+          <div class="col-lg-3 col-md-6 col-sm-10 col-12">
             <article class="course">
               <img src="img/course-4.jpg" alt="haircut" class="course__img">
               <h4 class="course__title">ПРИЧЁСКИ И УКЛАДКИ</h4>
@@ -640,18 +641,18 @@
             </button>
           </div>
           <div class="modal-body">
-            <form action="" class="form">
+            <form action="" class="form" onsubmit="yaCounter45893049.reachGoal('formperezvonimvam');">
               <input type="text" class="form__input" placeholder="Имя">
               <input type="tel" class="form__input" placeholder="Телефон">
               <textarea name="message" placeholder="Оставить комментарий"></textarea>
               <div class="checkbox course-apply__checkbox">
                 <input checked="" id="privacy_agreement" name="privacy" type="checkbox" value="true"> Я согласен(на) на
-                обработку персональных данных в соответствии с
+                обработку персональных данных.
               </div>
             </form>
           </div>
           <div class="modal-footer justify-content-center">
-            <button class="button" type="submit">
+            <button class="button" id="button_modal" type="submit">
               <span class="button__text">записаться</span>
             </button>
           </div>
