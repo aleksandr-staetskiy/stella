@@ -53,7 +53,7 @@
         }
 
         &__title {
-            height: 35px;
+            height: auto;
         }
 
         &__img {
@@ -64,10 +64,6 @@
         &:hover {
             transform: none;
             box-shadow: none;
-        }
-
-        &__duration {
-            height: 70px;
         }
 
     }

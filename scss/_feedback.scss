@@ -23,8 +23,6 @@
 
     &__text {
         font-size: 14px;
-        width: 280px;
-        margin: 0 auto;
     }
 
     &__more {
@@ -39,5 +37,21 @@
         }
     }
 
+
+    @media (max-width: 9750px) {
+
+        &__img-wrap {
+            width: 200px;
+            height: 200px;
+            margin: 0 auto;
+        }
+
+        &__more {
+            border-bottom: none;
+            text-decoration: underline;
+            font-size: 14px;
+        }
+        
+    }
     
 }
