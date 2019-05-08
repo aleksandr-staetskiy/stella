@@ -1,33 +1,33 @@
-function owlInitialize() {
-  if ($(window).width() < 768) {
-      $('.to_mobal').addClass("owl-carousel");
-      $('.owl-carousel').owlCarousel({
-          loop:true,    
-          margin: 5,  
-          nav: true,
-          navText: ["<i class='fas fa-chevron-left'></i>", "<i class='fas fa-chevron-right'></i>"],
-          dots: false,        
-          responsive:{
-              0:{
-                  items:1,           
-              },
-              480:{
-                  items:1,           
-              }
+// carousel setup 
+
+$(document).ready(function(){
+    $(".owl-carousel").owlCarousel({
+        loop: true,
+        autoplay: true,
+        items: 3,
+        margin: 10,
+        navText: ["<i class='fas fa-chevron-left'></i>", "<i class='fas fa-chevron-right'></i>"],
+        nav: true,
+        responsive:{
+            320:{
+                items:1,
+            },
+            450:{
+                items:1,
+            },
+            700:{
+                items:2,
+            },
+            1000:{
+                items:3,
+            }
             
-          }
-      });
-  }else{
-      $('.owl-carousel').owlCarousel('destroy');
-      $('.to_mobal').removeClass("owl-carousel");
-  }
-  }
-  $(document).ready(function(e) {
-  owlInitialize();
+        }
+    });
   });
-  $(window).resize(function() {
-  owlInitialize();
-  });
+
+
+
 
 //   burger menu setup 
 
@@ -46,9 +46,9 @@ $('#myModal').on('shown.bs.modal', function () {
 
 
 //   bootstrap
-$('.carousel').carousel({
-    interval: 2000
-  })
+// $('.carousel').carousel({
+//     interval: 2000
+//   })
 
 
 //   smooth scroll 
@@ -73,3 +73,4 @@ $('a[href*="#"]').on('click', function(e) {
         e.preventDefault();
     })
 })
+
