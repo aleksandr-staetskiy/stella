@@ -37,6 +37,9 @@ $('.burger, .overlay').click(function(){
     $('.overlay').toggleClass('show');
     $('nav').toggleClass('show');
     $('body').toggleClass('overflow');
+    $('.burger-link').click(function(){
+        $('.burger, .overlay').hide(300);
+    });
   });
 
 //   modal
