@@ -18,9 +18,9 @@
   }
 
   &__price {
-    display: flex;
-    justify-content: center;
-    margin-top: 7px;
-    margin-bottom: 7px;
+    text-align: center;
+    display: block;
+    width: 200px;
+    margin: 0 auto;
   }
 }
