@@ -32,15 +32,31 @@ $(document).ready(function(){
 
 //   burger menu setup 
 
-$('.burger, .overlay').click(function(){
-    $('.burger').toggleClass('clicked');
-    $('.overlay').toggleClass('show');
-    $('nav').toggleClass('show');
-    $('body').toggleClass('overflow');
-    $('.burger-link').click(function(){
-        $('.burger, .overlay').hide(300);
+$(document).ready(function () {
+
+    $('.first-button').on('click', function () {
+  
+      $('.animated-icon1').toggleClass('open');
+    });
+    $('.second-button').on('click', function () {
+  
+      $('.animated-icon2').toggleClass('open');
+    });
+    $('.third-button').on('click', function () {
+  
+      $('.animated-icon3').toggleClass('open');
     });
   });
+
+// $('.burger, .overlay').click(function(){
+//     $('.burger').toggleClass('clicked');
+//     $('.overlay').toggleClass('show');
+//     $('nav').toggleClass('show');
+//     $('body').toggleClass('overflow');
+//     $('.burger-link').click(function(){
+//         $('.burger, .overlay').hide(300);
+//     });
+//   });
 
 //   modal
 $(function() {
